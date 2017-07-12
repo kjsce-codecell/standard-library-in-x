@@ -1,8 +1,9 @@
 <div align="center">
     
-    <h1 align="center">C++ STL</h1>
+<h1 align="center">C++ STL</h1>
 
 </div>
+
 ### Index
 1. Introduction
 2. What are templates
