@@ -3,6 +3,7 @@
 > Queue is a container which follows FIFO  order (First In First Out).
 
 > Elements are inserted at one end (  Rear  ) and extracted from another end( Front )
+<br>
 
 ### Operations( Member functions )
 
@@ -13,7 +14,7 @@
 | <a>front( ) </a>    | Access the element on the front end of queue.       | O(1)
 | <a>empty( ) </a>       | Checks if the queue is empty or not.       | O(1)
 | <a>size( ) </a>      | returns the size of queue.       | O(1)
-
+<br>
 
 ### Implementation
 
@@ -38,11 +39,12 @@ int main(){
         return 0 ;
 }
 ```
+<br>
 
 ### Problems
 
  * codechef
-
+<br>
 
 <h1 align="center" ><a href="#"> Priority-Queue </a></h1>
 
@@ -51,6 +53,7 @@ int main(){
 > In a priority queue, an element with high priority is served before an element with low priority.
 
 > All insertion operations takes place in Logarithmic time .
+<br>
 
 ### Operations( Member functions )
 
@@ -61,7 +64,7 @@ int main(){
 | <a>top( ) </a>    | Returns a reference to the largest element in the priority queue.       | O(1)
 | <a>empty( ) </a>       |  Returns true if the priority queue is empty and false if the priority queue has at least one element       | O(1)
 | <a>size( ) </a>      | Returns the number of element in the priority queue.       | O(1)
-
+<br>
 
 
 ### Implementation
@@ -86,6 +89,7 @@ int main()
     return 0;
 }
 ```
+<br>
 
 ### Problems
  * codechef
