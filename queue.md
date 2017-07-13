@@ -1,9 +1,10 @@
-<h1 align="center"> Queue </h1>
-> Queue is a container which follows ** FIFO ** order (First In First Out).
+<h1 align="center"><a href="#"> Queue </a></h1>
 
-> Elements are inserted at one end ( ** rear **  ) and extracted from another end(** front ** )
+> Queue is a container which follows FIFO  order (First In First Out).
 
-<h4 align ="center">Operations( Member functions )</h4>
+> Elements are inserted at one end (  Rear  ) and extracted from another end( Front )
+
+### Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
@@ -14,7 +15,7 @@
 | <a>size( ) </a>      | returns the size of queue.       | O(1)
 
 
-<h5 align = "center"> Implementation </h5>
+### Implementation
 
 ```C++
 #include<iostream>
@@ -38,19 +39,20 @@ int main(){
 }
 ```
 
-<h4 align="center"> Problems </h4>
+### Problems
 
  * codechef
 
 
 <h1 align="center" ><a href="#"> Priority-Queue </a></h1>
+
 > A priority queue is a container that provides constant time extraction of the largest element .
 
 > In a priority queue, an element with high priority is served before an element with low priority.
 
 > All insertion operations takes place in Logarithmic time .
 
-<h4 align ="center">Operations( Member functions )</h4>
+### Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
@@ -62,7 +64,7 @@ int main(){
 
 
 
-<h5 align = "center"> Implementation </h5>
+### Implementation
 
 ```C++
 #include <iostream>
@@ -85,7 +87,7 @@ int main()
 }
 ```
 
- <h4 align ="center">Problems</h5>
+### Problems
  * codechef
 
 
