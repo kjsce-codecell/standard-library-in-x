@@ -1,5 +1,5 @@
 <div align="center">
-    
+
 <h1 align="center">C++ STL</h1>
 
 </div>
@@ -16,7 +16,7 @@
         1. unordered maps
         2. multimap (subtopic or a topic itself subject to change)
     4. Pairs(not a container actually subject to change)
-    5. Queue 
+    5. Queue
         1. Priority Queue
     6. Stack
     7. Bitset
@@ -35,4 +35,3 @@
     12. min()
     13. max()
     14. is_sorted()
-    

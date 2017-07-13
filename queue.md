@@ -52,7 +52,7 @@ int main(){
 
 > In a priority queue, an element with high priority is served before an element with low priority.
 
-> All insertion operations takes place in Logarithmic time .
+> All insertion / deletion operations takes place in Logarithmic time .
 <br>
 
 ### Operations( Member functions )
