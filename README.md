@@ -35,3 +35,4 @@
     12. min()
     13. max()
     14. is_sorted()
+ 5. Problems
