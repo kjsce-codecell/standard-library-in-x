@@ -8,18 +8,19 @@
 1. Introduction
 2. What are templates
 3. Containers
-    1. Vectors
-    2. Sets
+    1. [Vectors](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Vectors.markdown)
+    2. [Iterators](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Iterators.md)
+    3. Sets
         1. unordered sets
         2. multiset (subtopic or a topic itself subject to change)
-    3. Maps
+    4. Maps
         1. unordered maps
         2. multimap (subtopic or a topic itself subject to change)
-    4. Pairs(not a container actually subject to change)
-    5. Queue
+    5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change)
+    6. Queue 
         1. Priority Queue
-    6. Stack
-    7. Bitset
+    7. Stack
+    8. Bitset
 4. In-build functions
     1. next_permutation()
     2. max_element()
