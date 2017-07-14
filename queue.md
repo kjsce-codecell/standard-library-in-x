@@ -4,6 +4,7 @@
 <div id = "queue"></div>
 <h1 align="center"><a href="http://www.cplusplus.com/reference/queue/queue/"> Queue </a></h1>
 
+
 > Queue is a container which follows FIFO  order (First In First Out).
 
 > Elements are inserted at one end (  Rear  ) and extracted from another end( Front )
