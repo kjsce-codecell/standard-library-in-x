@@ -1,4 +1,8 @@
-<h1 align="center"><a href="#"> Sets </a></h1>
+<p><b>Contents : </b> <a href="#sets"> sets </a><a href="#unordered_sets"> unordered_sets</a><a href="#multiset"> multiset </a> </p>
+<br>
+
+<div id ="sets"> </div>
+<h1 align="center" ><a href="http://www.cplusplus.com/reference/set/set/"> Sets </a></h1>
 
 > Sets are containers which store only unique values and permit easy look ups.
 
@@ -12,15 +16,15 @@
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
-| <a>begin( )</a>        | Returns an iterator to the first element of the set.       | O(1)
-| <a>end( ) </a>      | Returns an iterator pointing to a position which is next to the last element       | O(1)
-| <a>clear( )</a>     |  Deletes all the elements in the set and the set will be empty.       | O(N)
-| <a>count( ) </a>    | Returns 1 or 0 if the element is in the set or not respectively.       | O(logN)
-| <a>empty( ) </a>       |  Returns true if the set is empty and false if the set has at least one element       | O(1)
-| <a>erase( ) </a>      |  Deletes a particular element or a range of elements from the set.       | O(N)
-| <a>find( ) </a>      | Searches for a particular element and returns the iterator pointing to the element if the element is found otherwise it will return the iterator returned by end().       | O(logN)
-| <a>size( ) </a>      | Returns the size of the set or the number of elements in the set.       | O(1)
-| <a>insert( ) </a>      |  insert a new element.       | O(1)
+| <a href="#">begin( )</a>        | Returns an iterator to the first element of the set.       | O(1)
+| <a href="#">end( ) </a>      | Returns an iterator pointing to a position which is next to the last element       | O(1)
+| <a href="#">clear( )</a>     |  Deletes all the elements in the set and the set will be empty.       | O(N)
+| <a href="#">count( ) </a>    | Returns 1 or 0 if the element is in the set or not respectively.       | O(logN)
+| <a href="#">empty( ) </a>       |  Returns true if the set is empty and false if the set has at least one element       | O(1)
+| <a href="#">erase( ) </a>      |  Deletes a particular element or a range of elements from the set.       | O(N)
+| <a href="#">find( ) </a>      | Searches for a particular element and returns the iterator pointing to the element if the element is found otherwise it will return the iterator returned by end().       | O(logN)
+| <a href="#">size( ) </a>      | Returns the size of the set or the number of elements in the set.       | O(1)
+| <a href="#">insert( ) </a>      |  insert a new element.       | O(1)
 
 <br>
 
@@ -65,8 +69,25 @@ int main()
 
  * codechef
 <br>
+<div id = "unordered_set"></div>
+<h1 align="center" id ="unordered_set"><a href="http://www.cplusplus.com/reference/unordered_set/unordered_set/"> Unordered-Sets </a></h1>
 
-<h1 align="center"><a href="#"> Unordered-Sets </a></h1>
+> Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value.
+
+> Pros : Faster than sets (promises amortized O(1) for search) .
+
+> Cons : Look up not guaranteed to be O(1) Therotical worst case is O(n)
+
+
+### Note : Implementation && Member functions are same as Sets .
+
+### Problems
+
+ * codechef
+<br>
+
+<div id ="multiset"></div>
+<h1 align="center"><a href="http://www.cplusplus.com/reference/set/multiset/"> Multiset </a></h1>
 
 > Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value.
 
