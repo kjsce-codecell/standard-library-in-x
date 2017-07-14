@@ -1,5 +1,5 @@
 <div align="center">
-    
+
 <h1 align="center">C++ STL</h1>
 
 </div>
@@ -37,5 +37,3 @@
     13. max()
     14. is_sorted()
  5. Problems
- 
-    
