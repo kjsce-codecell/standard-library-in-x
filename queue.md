@@ -1,6 +1,7 @@
-<p><b>Contents : </b> <a href="#sets"> sets</a><a href="#unordered_sets"> unordered_sets</a><a href="#multiset"> multiset </a> </p>
+<p><b><i>Contents : <i></b> <a href="#queue"> queue </a><a href="#pqueue"> priority_queue </a> </p>
 <br>
 
+<div id = "queue"></div>
 <h1 align="center"><a href="http://www.cplusplus.com/reference/queue/queue/"> Queue </a></h1>
 
 > Queue is a container which follows FIFO  order (First In First Out).
@@ -49,6 +50,7 @@ int main(){
  * codechef
 <br>
 
+<div id = "pqueue"></div>
 <h1 align="center" ><a href="http://www.cplusplus.com/reference/queue/priority_queue/"> Priority-Queue </a></h1>
 
 > A priority queue is a container that provides constant time extraction of the largest element .
@@ -98,4 +100,4 @@ int main()
  * codechef
 
 
-#### Note - Follow up Deque as above
+#### Note - Follow up [deque](http://www.cplusplus.com/reference/deque/deque/) as above
