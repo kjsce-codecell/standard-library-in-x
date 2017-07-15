@@ -22,17 +22,17 @@ bitset<10> bset3(string("1100")); // bset3 is initialized with bits of specified
 
 <h2>FUNCTIONS</h2>
 
-| <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
-| :-------------                | :-------------                   | :-------------               |
-| <a>count()</a>        |Returns the number of bits in the bitset that are set (i.e., that have a value of one).      |O(1)
-| <a>size()</a>        |Returns the number of bits in the bitset.      |O(1)
-| <a>test()</a>        |Returns boolean value regarding a position being set       |O(1)
-| <a>any()/none()</a>        |Returns true/false if any bit is set in a given bitset      |O(1)
-| <a>all()</a>        |Returns true if all bits are set      |O(1)
-| <a>set()</a>        |Sets all bits to 1 or specific bits to 1 or 0      |O(1)
-| <a>reset()</a>        |Sets all bits to 0 or specific pos to 0      |O(1)
-| <a>flip()</a>        |Flips bitvalue at a specific or all positions      |O(1)
-| <a>to_string/to_ulong/to_ullong</a>        |Converts the bitsets into appropriate datatypes   |O(1)
+| <center>Function </center>    | <center>What it does ?</center>  | 
+| :-------------                | :-------------                   | 
+| <a>count()</a>        |Returns the number of bits in the bitset that are set (i.e., that have a value of one).      |
+| <a>size()</a>        |Returns the number of bits in the bitset.      |
+| <a>test()</a>        |Returns boolean value regarding a position being set       |
+| <a>any()/none()</a>        |Returns true/false if any bit is set in a given bitset      |
+| <a>all()</a>        |Returns true if all bits are set      |
+| <a>set()</a>        |Sets all bits to 1 or specific bits to 1 or 0      |
+| <a>reset()</a>        |Sets all bits to 0 or specific pos to 0      |
+| <a>flip()</a>        |Flips bitvalue at a specific or all positions      |
+| <a>to_string/to_ulong/to_ullong</a>        |Converts the bitsets into appropriate datatypes   |
 
 <h2>IMPLEMENTATION</h2>
 
