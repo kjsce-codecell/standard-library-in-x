@@ -17,9 +17,9 @@
         1. unordered maps
         2. multimap (subtopic or a topic itself subject to change)
     5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change)
-    6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md)
+    6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md) 
         1. Priority Queue
-    7. Stack
+    7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.markdown)
     8. Bitset
 4. In-build functions
     1. next_permutation()
