@@ -20,7 +20,7 @@
     6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md) 
         1. Priority Queue
     7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.md)
-    8. Bitset
+    8. [Bitset](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/bitsets.md)
 4. In-build functions
     1. next_permutation()
     2. max_element()
