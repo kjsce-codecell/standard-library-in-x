@@ -9,8 +9,8 @@ Vector is just an array with extended functionality.In other words, vectors are 
 
 ```
 vector<datatype> a;  //empty vector
-vector<datatype> b (mo of elements, value of each element); //fixed number of elements with default value
-vector<datatype> c (starting iterator/pointer,ending iterator/pointer); //inserting elements from other datastructures
+vector<datatype> b (no of elements, value of each element); //fixed number of elements with default value
+vector<datatype> c (starting iterator/pointer,ending iterator/pointer); //inserting elements from other data structures
 vector<datatype> d (name of vector to be copied);    
 vector<vector<datatype> > matrix(no of rows,vector<datatype>(no of coloumn,default value)) //Declaring a 2D array
 
