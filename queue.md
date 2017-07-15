@@ -1,4 +1,9 @@
-<h1 align="center"><a href="#"> Queue </a></h1>
+<p><b><i>Contents : <i></b> <a href="#queue"> queue </a><a href="#pqueue"> priority_queue </a> </p>
+<br>
+
+<div id = "queue"></div>
+<h1 align="center"><a href="http://www.cplusplus.com/reference/queue/queue/"> Queue </a></h1>
+
 
 > Queue is a container which follows FIFO  order (First In First Out).
 
@@ -9,11 +14,11 @@
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
-| <a>push( )</a>        | Inserts an element in queue at one end(rear).       | O(1)
-| <a>pop( )</a>     | Deletes an element from another end if queue(front).       | O(1)
-| <a>front( ) </a>    | Access the element on the front end of queue.       | O(1)
-| <a>empty( ) </a>       | Checks if the queue is empty or not.       | O(1)
-| <a>size( ) </a>      | returns the size of queue.       | O(1)
+| <a href="#">push( )</a>        | Inserts an element in queue at one end(rear).       | O(1)
+| <a href="#">pop( )</a>     | Deletes an element from another end if queue(front).       | O(1)
+| <a href="#">front( ) </a>    | Access the element on the front end of queue.       | O(1)
+| <a href="#">empty( ) </a>       | Checks if the queue is empty or not.       | O(1)
+| <a href="#">size( ) </a>      | returns the size of queue.       | O(1)
 <br>
 
 ### Implementation
@@ -46,7 +51,8 @@ int main(){
  * codechef
 <br>
 
-<h1 align="center" ><a href="#"> Priority-Queue </a></h1>
+<div id = "pqueue"></div>
+<h1 align="center" ><a href="http://www.cplusplus.com/reference/queue/priority_queue/"> Priority-Queue </a></h1>
 
 > A priority queue is a container that provides constant time extraction of the largest element .
 
@@ -59,11 +65,11 @@ int main(){
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
-| <a>push( )</a>        | Inserts a new element in the priority queue.       | O(logN)
-| <a>pop( )</a>     | Removes the largest(Top) element from the priority queue .       | O(LogN)
-| <a>top( ) </a>    | Returns a reference to the largest element in the priority queue.       | O(1)
-| <a>empty( ) </a>       |  Returns true if the priority queue is empty and false if the priority queue has at least one element       | O(1)
-| <a>size( ) </a>      | Returns the number of element in the priority queue.       | O(1)
+| <a href="#">push( )</a>        | Inserts a new element in the priority queue.       | O(logN)
+| <a href="#">pop( )</a>     | Removes the largest(Top) element from the priority queue .       | O(LogN)
+| <a href="#">top( ) </a>    | Returns a reference to the largest element in the priority queue.       | O(1)
+| <a href="#">empty( ) </a>       |  Returns true if the priority queue is empty and false if the priority queue has at least one element       | O(1)
+| <a href="#">size( ) </a>      | Returns the number of element in the priority queue.       | O(1)
 <br>
 
 
@@ -95,4 +101,4 @@ int main()
  * codechef
 
 
-#### Note - Follow up Deque as above
+#### Note - Follow up [deque](http://www.cplusplus.com/reference/deque/deque/) as above
