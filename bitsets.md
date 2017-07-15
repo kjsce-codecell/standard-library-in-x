@@ -46,16 +46,7 @@ using namespace std;
  
 int main()
 {
-    bitset<M> bset1;
-    bitset<M> bset2(20);
-    bitset<M> bset3(string("1100"));
- 
-    // cout prints exact bits representation of bitset
-    cout << bset1 << endl;  // 00000000000000000000000000000000
-    cout << bset2 << endl;  // 00000000000000000000000000010100
-    cout << bset3 << endl;  // 00000000000000000000000000001100
-    cout << endl;
- 
+    
     bitset<8> set8;    // 00000000
  
     // setting first bit (or 6th index)
@@ -124,10 +115,6 @@ int main()
 Output
 
 ```
-00000000000000000000000000000000
-00000000000000000000000000010100
-00000000000000000000000000001100
-
 00010010
 00010010 has 2 ones and 6 zeros
 bool representation of 00010010 : 0 1 0 0 1 0 0 0 
