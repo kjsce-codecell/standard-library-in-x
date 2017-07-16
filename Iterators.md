@@ -79,8 +79,8 @@ The position of iterator after advancing is :
 
 <h2>REVERSE ITERATORS</h2>
 Reverse iterator is an iterator adaptor that reverses the direction of a given iterator. 
-In other words, when provided with a bidirectional iterator, std::reverse_iterator produces a new iterator that moves from the end to the beginning of the sequence defined by the underlying bidirectional iterator.
-Here we make us of rend() and rbegin() where rbegin() points to the last element of the container and rend() points to one position before the first element.
+In other words, when provided with a bidirectional iterator, std::reverse_iterator produces a new iterator that moves from the end to the beginning of the sequence defined by the underlying bidirectional iterator.<br>
+Here we make us of rend() and rbegin() where rbegin() points to the last element of the container and rend() points to one position before the first element.<br>
 Using the operation ++ makes the iterator move a step towards the first element  
 
 <h3>IMPLEMENTATION</h3>
