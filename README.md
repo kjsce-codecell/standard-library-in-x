@@ -36,3 +36,4 @@
     12. [max() & min()](./MaxMin.md)
     13. is_sorted()
  5. Problems
+ 6. Reference
