@@ -13,7 +13,7 @@
     3. [Sets](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/sets.md)
         1. unordered sets
         2. multiset (subtopic or a topic itself subject to change)
-    4. [Maps](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Iterators.md)
+    4. [Maps](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/maps.md)
         1. unordered maps
         2. multimap (subtopic or a topic itself subject to change)
     5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change)
