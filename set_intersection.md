@@ -1,6 +1,7 @@
 <h1 align="center"> set_intersection() </h1> 
 
 <h3> Function </h3>
+
 > Constructs a sorted range beginning consisting of elements that are found in both sorted ranges [first1, last1) and [first2, last2).
 
 >If some element is found m times in [first1, last1) and n times in [first2, last2), the first x number of elements will be copied from the first range to the destination range where x is the minimum of m and n. 
@@ -10,6 +11,7 @@
 >The resulting range cannot overlap with either of the input ranges.
 
 <h3> Declaration </h3>
+
 ```
 set_intersection(first1,last1,first2,last2,result)
 ```
@@ -28,6 +30,7 @@ Returns an iterator past the end of the constructed range.
 
 
 <h3> Example </h3>
+
 ```C++
 #include <iostream>
 #include <vector>
