@@ -1,4 +1,4 @@
-# **next_permutation()**
+<h1 align="center"><a href="#"> next_permutation() </a></h1>
 
 ## Function
 
@@ -16,14 +16,13 @@ next_permutation(iterator for start of the range,iterator for end of the range w
 
 ## Example
 
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 #include <string>
 using namespace std;
 
 int main() {
-	// your code goes here
 	cout<<"String Example"<<endl;
 	cout<<endl;
 	

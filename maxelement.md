@@ -1,4 +1,4 @@
-# **max_element()**
+<h1 align="center"><a href="#"> max_element() </a></h1>
 
 ## Function
 
@@ -12,13 +12,12 @@ max_element(iterator for start of the range,iterator for end of the range which 
 
 ## Example
 
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
 
 int main() {
-	// your code goes here
 	int a[6] = {-1,7,3,6,9,10};
 	
 	cout<<"biggest value in range of first 3 elements : "<<*max_element(a,a+3)<<endl;
