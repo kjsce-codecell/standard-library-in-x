@@ -32,8 +32,8 @@
     8. reverse()
     9. [set_union()](./set_union.md)
     10. [set_intersection()](./set_intersection.md)
-    11. set_difference()
+    11. [set_difference()](./set_difference.md)
     12. [max() & min()](./MaxMin.md)
-    13. is_sorted()
+    13. [is_sorted()](./is_sorted.md)
  5. Problems
  6. Reference
