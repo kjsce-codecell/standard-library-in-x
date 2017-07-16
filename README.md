@@ -6,7 +6,7 @@
 
 ### Index
 1. [Introduction](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/introduction.md)
-2. What are templates?
+2. [What are templates?](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/templates.md)
 3. Containers
     1. [Vectors](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Vectors.markdown)
     2. [Iterators](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Iterators.md)
