@@ -63,6 +63,11 @@ int main()
 
 }
 ```
+Output:
+```
+size of set 4
+2 3 4 5 
+```
 <br>
 
 ### Problems
