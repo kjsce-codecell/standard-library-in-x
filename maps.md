@@ -27,7 +27,6 @@
 
 ```
 map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
-
 ```
 <br>
 
@@ -38,7 +37,6 @@ map<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
 map<Type1, Type2>  var_name2(var_name1.begin(),var_name1.end());
-
 ```
 
 Note: The template types should be same.<br>
@@ -274,3 +272,74 @@ return 0;
 <h3>Access: O(1)</h3>
 <h3>Delete (Average Case): O(1)</h3>
 <h3>Delete (Worst Case): O(n)</h3>
+
+
+<div align="center">
+	<h1 align="center">Multimap</h1>
+</div>
+
+<h2>Introduction:</h2>
+	A Multimap is a datastructure to store a key value pair having multiple keys.
+
+<h2>Import:</h2>
+
+```
+#include <map>
+```
+<h2>Properites:</h2>
+	Same as maps but only it can have multiple values for a key.
+
+<h2>Usage:</h2>
+<h3>1. Initialize</h3>
+		Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
+<h3>2. Constructors</h3>
+<h4>1. Default:</h4> Makes an empty container.
+
+```
+multimap<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
+```
+<br>
+
+<h4>2. Range:</h4> Used to copy range of elements from one map to other.
+
+```
+multimap<Type1, Type2> var_name1;
+//fill 10 elements in var_name
+//If want to copy elements from 0-10
+multimap<Type1, Type2>  var_name2(var_name1.begin(),var_name1.end());
+```
+
+Note: The template types should be same.<br>
+<h4>3. Copy:</h4>
+Copy entire container in new map object.<br>
+
+```
+multimap<Type1, Type2> var_name(map_object);
+```
+Copies the map_object in var_name. The map_object should be of same type.<br><br>
+<h3>3. Insert</h3>
+<h4>1. Insert using insert()</h4>
+This method inserts an element with the key and value provided.
+Use <a href = "http://www.cplusplus.com/reference/map/multimap/find/">this</a> link because it is very similar to maps and unordered_maps.
+<h3>4. Access</h3>
+<h4>1. Access using find()</h4>
+Returns an iterator to an arbitrary element of possibly multiple elements having the given key.<br>
+<a href="http://www.cplusplus.com/reference/map/multimap/find/">Example</a>
+
+<h4>2. Access using equal_range()</h4>
+Returns a pair of iterators. First is an iterator to the first element having the given key. Second is the iterator to the next to last element having the key.<br>
+<a href="http://www.cplusplus.com/reference/map/multimap/equal_range/">Example</a>
+
+<h3>5. Delete</h3>
+<h4>1. erase()</h4>
+Deletes an element using its iterator. Same as maps and unordered_maps.<br>
+<a href="http://www.cplusplus.com/reference/map/multimap/erase/">Example</a>
+
+<h3>6: Iteration</h3>
+Same as maps and unordered_maps.<br>
+<a href="http://www.cplusplus.com/reference/map/multimap/begin/">Example</a>
+
+<h2>Complexities</h2>
+<h3>Insert: O(log(n))</h3>
+<h3>Access: O(log(n))</h3>
+<h3>Delete: O(1) + Access = O(log(n))</h3>
