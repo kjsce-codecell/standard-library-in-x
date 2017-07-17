@@ -12,11 +12,11 @@
     2. [Iterators](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Iterators.md)
     3. [Sets](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/sets.md)
         1. Unordered Sets
-        2. Multiset (subtopic or a topic itself subject to change)
+        2. Multiset
     4. [Maps](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/maps.md)
         1. Unordered Maps
-        2. Multimap (subtopic or a topic itself subject to change)
-    5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change)
+        2. Multimap
+    5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change **Urgent**)
     6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md) 
         1. Priority Queue
     7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.md)
@@ -35,5 +35,5 @@
     11. [set_difference()](./set_difference.md)
     12. [max() & min()](./MaxMin.md)
     13. [is_sorted()](./is_sorted.md)
- 5. Problems
- 6. Reference
+ 5. [Problems](./problems.md)
+ 6. [Reference](./reference.md)
