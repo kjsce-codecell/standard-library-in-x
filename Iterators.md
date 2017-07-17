@@ -13,18 +13,18 @@ which provide iterators, may be passed to a wide range of standard functions.
 <h2>CONSTRUCTION</h2>
 general construction of iterators looks like
 
-```
+```C++
 Container <datatype>::iterator name;
 ```
 ex. for creating an iterator for a vector
 
-```
+```C++
 vector <int>::iterator  it;
 ```
 
 for list
 
-```
+```C++
 list <int>::iterator it;
 ```
 <br>
@@ -46,7 +46,7 @@ list <int>::iterator it;
 <h2>Implementation</h2>
 
 The following is the implementation of few iterator function in vectors,
-```
+```C++
 #include<iostream>
 #include<iterator> // for iterators
 #include<vector> // for vectors
@@ -85,7 +85,7 @@ Using the operation ++ makes the iterator move a step towards the first element
 
 <h3>IMPLEMENTATION</h3>
 
-```
+```C++
 for(vector<int>::reverse_iterator i=ar.rbegin();i!=ar.rend();++i) 
 {
 	cout<<*i<<" ";
@@ -101,7 +101,7 @@ All other functions are the same as that of the iterators.
 Note-(For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++
 using this the above implementation would look like:
 
-```
+```C++
 for(auto i=ar.rbegin();i!=ar.rend();++i) 
 {
 	cout<<*i<<" ";
