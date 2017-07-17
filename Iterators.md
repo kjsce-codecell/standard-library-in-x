@@ -62,9 +62,9 @@ int main()
         cout << *ptr << " ";
     cout<<"\n";
     vector<int>::iterator ptr1 = ar.begin();
-    advance(ptr, 3);
+    advance(ptr1, 3);
     cout << "The position of iterator after advancing is : ";
-    cout << *ptr << " ";
+    cout << *ptr1 << " ";
     return 0;    
 }
 ```
