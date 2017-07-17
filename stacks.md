@@ -34,7 +34,7 @@ using namespace std;
  
 void showstack(stack <int> kj)
 {
-    stack <int> c = Kj;
+    stack <int> c = kj;
     while (!c.empty())
     {
         cout << '\t' << c.top();
