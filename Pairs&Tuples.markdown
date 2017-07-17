@@ -10,7 +10,7 @@ Pair is a container that can be used to bind together a two values which may be 
 <h2>construction</h2>
 The simplest form in general would be the following:
 
-```
+```C++
 template<typename T1, typename T2> struct pair { 
       T1 first; 
       T2 second; 
@@ -21,7 +21,7 @@ template<typename T1, typename T2> struct pair {
 In general pair<int,int> is a pair of integer values. At a more complex level, pair<string, pair<int, int> > is a pair of string and two integers. In the second case, the usage may be like this:
 
 
-```
+```C++
 pair<string, pair<int,int> > P; 
 string s = P.first; // extract string 
 int x = P.second.first; // extract first int 
@@ -32,12 +32,12 @@ int y = P.second.second; // extract second int
 
 We can also initialize a pair just like in vectors
 
-```
-pair (data_type1, data_type2) Pair_name (value1, value2) ;
-pair  g1;         //default
-pair  g2(1, 'a');  //initialized,  different data type
-pair  g3(1, 10);   //initialized,  same data type
-pair  g4(g3);    //copy of g3
+```C++
+pair <data_type1, data_type2> Pair_name (value1, value2) ;
+pair <data_type1, data_type2> g1;         //default
+pair <data_type1, data_type2> g2(1, 'a');  //initialized,  different data type
+pair <data_type1, data_type2> g3(1, 10);   //initialized,  same data type
+pair <data_type1, data_type2> g4(g3);    //copy of g3
 
 ```
 
@@ -51,7 +51,7 @@ pair  g4(g3);    //copy of g3
 
 <h2>Implementation</h2>
 
-```
+```C++
 #include <iostream>
 #include <utility> //required for pairs
 using namespace std;
@@ -121,7 +121,7 @@ Contents of pair2 = 1,12
 Pairs are mainly used at places where we need to rearrange certain data types(sort/insert) but keep together another value related to along with it throughout the process for certain use <br>
 By default sorting a pair related container causes data compared on the basis of fist parameter although we can create some custom compare function to change the behavior<br>
 
-```
+```C++
 #include<bits/stdc++.h>
 using namespace std;
  
@@ -209,7 +209,7 @@ A tuple is an object that can hold a number of elements. The elements can be of 
 <h2>Implementation</h2>
 
 
-```
+```C++
 
 #include<iostream>
 #include<tuple> // for tuple
