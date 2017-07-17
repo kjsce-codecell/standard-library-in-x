@@ -34,13 +34,13 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 <h2>PASSING AS ARGUMENT TO FUNCTION</h2>
 
 You should remember one more very important thing: When vector is passed as a parameter to some function, a copy of vector is actually created. It may take a lot of time and memory to create new vectors when they are not really needed.
-```
+```C++
 void some_function(vector<int> v) { // Never do it unless you’re sure what you do! 
       // ... 
  } 
 ```
 Instead, use the following construction:
-```
+```C++
 int modify_vector(vector<int>& v) { // Correct 
       V[0]++; 
  } 
@@ -48,7 +48,7 @@ int modify_vector(vector<int>& v) { // Correct
 
 <h2>Implementation</h2>
 
-```
+```C++
 #include <iostream>
 #include <vector>
 
