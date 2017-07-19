@@ -14,7 +14,7 @@ We will cut to the chase by stating most important and valuable features of GCC:
   
 # Turbo V/s Gcc
 
-  - The main difference between turbo and GCC compilers is that turbo has not received an update since 20000. So it’s quite out dated. 
+  - The main difference between turbo and GCC compilers is that turbo has not received an update since 2000. So it’s quite out dated. 
   -  In GCC, there are header files such as cstdio which can be used to incorporate the functions of c in c++. 
   - GCC has namespace std. Namespace is a block which defines the scope of the function which it contains. Std stands for standard i.e. it contains all the standard function such as cout and cin. Using namespace will eliminate the confusion as to which version of the functions having the same name must be used in the program.
   - GCC eliminates the use of .h extension in header files.
