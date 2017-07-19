@@ -14,9 +14,9 @@ We will cut to the chase by stating most important and valuable features of GCC:
   
 # Turbo V/s Gcc
 
-  - The main difference between turbo and GCC compilers is that turbo has not received an update since 20000. So it’s quite out dated. 
+  - The main difference between turbo and GCC compilers is that turbo has not received an update since 2000. So it’s quite out dated. 
   -  In GCC, there are header files such as cstdio which can be used to incorporate the functions of c in c++. 
-  - GCC has namespace std. Namespace is a block which defines the scope of the function which it contains. Std stands for standard i.e. it contains all the standard function such as cout and cin. Using namespace will eliminate the confusion as to which version of the functions having the same name must be used in the program.
+  - GCC has namespace std. Namespace is a block which defines the scope of the function which it contains. Std stands for standard i.e. it contains all the standard functions such as cout and cin. Using namespace will eliminate the confusion as to which version of the functions having the same name must be used in the program.
   - GCC eliminates the use of .h extension in header files.
   
 While gcc is extensively used in Linux, mingw-gcc is the Windows version of gcc. Although it's best to code in Linux, but if you're more comfortable with Windows, it is recommended that you use replit. Repl.it is an online compiler (available at https://repl.it/), which supports many languages include c,c++,java,python etc.
@@ -25,7 +25,7 @@ While gcc is extensively used in Linux, mingw-gcc is the Windows version of gcc.
 Gcc is preinstalled in any unix based system. To invoke gcc to compile C++ files, “g++” command is used.
 In Windows 10, one can enable the ubuntu unix terminal by enabling the developer mode in settings.
 Say you have a file helloworld.cpp as follows :
-```
+```c++
 #include <cstdio>
 #include <iostream>
 using namespace std;
@@ -45,14 +45,14 @@ Since no executable name was specified to g++, a.out is chosen by default. Use t
 creates an executable called "helloworld".
 
 # Points to Remember regarding GCC
-  - No programming contest (except some school contests) and no online coding platforms (like CodeChef, Spoj,etc.) supports Turbo C++, but use gcc for compilation. To make the code compilable with gcc and to ensure that the latest standards are met, few minor changes are required in the Turbo C++ code (though the rest of the
+  - No programming contest (except some school contests) and no online coding platforms (like CodeChef, Spoj,etc.) support Turbo C++, but use gcc for compilation. To make the code compilable with gcc and to ensure that the latest standards are met, few minor changes are required in the Turbo C++ code (though the rest of the
 code remains the same). 
   - There's no header file named as 'conio.h' in gcc. Including such header file would result in compilation error. Since conio.h header file doesn't exist, the latest standard does not support functions like clrscr(), getch(), getche(), gets(), cgets(), puts, putch(), cputs(), etc. too. Hence, using such functions would also result in compilation error. **So, do NOT use conio.h header file** and any of its functions. So how do you clear the screen then? You don't need to. Atleast you won't be required to clear the screen in the programming contests (whenever the program runs/starts, the output stream (if not the screen) is cleared automatically, and the contest's judging system compares the output in the output stream only with the expected output). Isn't getch() a necessary function to use? No! Program can very well work (and generate output) without that function. If gets() is not allowed, how do you then take string as input? You can always input strings using cin or scanf(). You would generally not be required to take strings with spaces as input in any
 programming contest. And if you ever have to, you can use functions like cin.getline(), etc. In short, you can always do without using conio.h header file and any of its functions. 
-  - Functions from (most of) rest of the header files can be used normally, as you did in Turbo. But some of the header files are included differently. For example, you write #include<iostream> instead of #include<iostream.h> Not accepted Same goes for iomanip.h. You include iomanip instead. And header files which were originally a
+  - Functions from (most of) rest of the header files can be used normally, as you did in Turbo. But some of the header files are included differently. For example, you write 
+ ``` #include<iostream> ```instead of #include<iostream.h> Not accepted. Same goes for iomanip.h. You include iomanip instead. And header files which were originally a
 part of C language (like math.h, string.h, stdio.h, time.h, stdlib.h, ctype.h, etc.) must have 'c' as a prefix to them (and shouldn't be having .h at the end). You include them like:
-#include<cmath> #include<cstring> #include<cstdio> #include<ctime>
-#include<cstdlib> #include<cctype>
+```#include<cmath> #include<cstring> #include<cstdio> #include<ctime> #include<cstdlib> #include<cctype>```
   - Either you prefix std:: with all cout and cin statements and few other places, or we'd advice you to add the following line outside the main function: using namespace std;
   - Do not use void main(), and only int main(), and always return 0 at the end of the main() function.
 
