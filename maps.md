@@ -7,7 +7,7 @@
 
 <h2>Import:</h2>
 
-```
+```C++
 #include <map>
 ```
 
@@ -25,14 +25,14 @@
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
-```
+```C++
 map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 <br>
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```C++
 map<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -43,23 +43,25 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```C++
 map<Type1, Type2> var_name(map_object);
 ```
+
 Copies the map_object in var_name. The map_object should be of same type.<br><br>
 
 <h3>3. Insert</h3>
 <h4>1. Insert using key and value directly, using array-like syntax.</h4>
 
-```
+```C++
 map<char, int> map_object;
 map_object['a'] = 10;
 ```
+
 <h5 style="display:inline">Note:</h5> This method overwrites the previous value (if any).
 
 <h4>2. Insert using insert()</h4>
 
-```
+```C++
 map_object.insert(make_pair<char, int>('b', 20));
 ```
 <h5 style="display:inline">Note:</h5> This method does not overwrite the previous value (if any) but returns an object pointing to the previous value and new value is not inserted.
@@ -68,7 +70,7 @@ map_object.insert(make_pair<char, int>('b', 20));
 
 The return_object is a pair, first is an iterator to inserted element(or the same key element if insertion was prevented) and second is a boolean object which is true if insert happened and is false if it was stopped.
 
-```
+```C++
 map<char,int> mymap;
 mymap.insert ( pair<char,int>('a',100) );
 mymap.insert ( pair<char,int>('z',200) );
@@ -80,21 +82,24 @@ if (ret.second==false) {
 	cout << " with a value of " << ret.first->second << '\n';
 }
 ```
+
 <h3>4. Access</h3>
 
 <h4>1. Access using key directly</h4>
 
-```
+```C++
 cout << mymap['b'];
 ```
+
 <h4>2. Access using at()</h4>
 
-```
+```C++
 cout << mymap.at('b');
 ```
+
 <h4>3. Access using find()</h4>
 
-```
+```C++
 cout << mymap.find('b')->second;
 cout << (*mymap.find('b')).second;
 ```
@@ -103,7 +108,7 @@ cout << (*mymap.find('b')).second;
 <h3>5. Delete</h3>
 <h4>1. erase()</h4>
 
-```
+```C++
 mymap.erase('b');
 it = mymap.find('a');
 mymap.erase(it, mymap.end());
@@ -114,7 +119,7 @@ mymap.erase(it, mymap.end());
 <h4>1. Begin()</h4>Returns an iterator to first element in the map.
 <h4>2. End()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
 
-```
+```C++
 map<char,int> mymap;
 
 mymap['b'] = 100;
@@ -141,7 +146,7 @@ return 0;
 
 <h2>Import:</h2>
 
-```
+```C++
 #include <unordered_map>
 ```
 <h2>Properties:</h2>
@@ -159,14 +164,14 @@ return 0;
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
-```
+```C++
 unordered_map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 <br>
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```C++
 unordered_map<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -177,21 +182,22 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```C++
 unordered_map<Type1, Type2> var_name(map_object);
 ```
+
 Copies the map_object in var_name. The map_object should be of same type.<br><br>
 <h4>4. List:</h4>
 Initialize a list as a key value pair.
 
-```
+```C++
 unordered_map<string, string> var_name({{"apple", "red"}, {"mango", "yellow"}});
 ```
 
 <h3>3. Insert</h3>
 <h4>1. Insert using key and value directly, using array-like syntax.</h4>
 
-```
+```C++
 unordered_map<char, int> map_object;
 map_object['a'] = 10;
 ```
@@ -199,16 +205,17 @@ map_object['a'] = 10;
 
 <h4>2. Insert using insert()</h4>
 
-```
+```C++
 map_object.insert(make_pair<char, int>('b', 20));
 ```
+
 <h5 style="display:inline">Note:</h5> This method does not overwrite the previous value (if any) but returns an object pointing to the previous value and new value is not inserted.
 
 <h4>3. Returned object of insert()</h4>
 
 The return_object is a pair, first is an iterator to inserted element(or the same key element if insertion was prevented) and second is a boolean object which is true if insert happened and is false if it was stopped.
 
-```
+```C++
 unordered_map<char,int> mymap;
 mymap.insert ( pair<char,int>('a',100) );
 mymap.insert ( pair<char,int>('z',200) );
@@ -220,21 +227,22 @@ if (ret.second==false) {
 	cout << " with a value of " << ret.first->second << '\n';
 }
 ```
+
 <h3>4. Access</h3>
 
 <h4>1. Access using key directly</h4>
 
-```
+```C++
 cout << mymap['b'];
 ```
 <h4>2. Access using at()</h4>
 
-```
+```C++
 cout << mymap.at('b');
 ```
 <h4>3. Access using find()</h4>
 
-```
+```C++
 cout << mymap.find('b')->second;
 cout << (*mymap.find('b')).second;
 ```
@@ -243,7 +251,7 @@ cout << (*mymap.find('b')).second;
 <h3>5. Delete</h3>
 <h4>1. erase()</h4>
 
-```
+```C++
 mymap.erase('b');
 it = mymap.find('a');
 mymap.erase(it, mymap.end());
@@ -254,7 +262,7 @@ mymap.erase(it, mymap.end());
 <h4>1. Begin()</h4>Returns an iterator to first element in the map.
 <h4>2. End()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
 
-```
+```C++
 unordered_map<char,int> mymap;
 
 mymap['b'] = 100;
@@ -283,7 +291,7 @@ return 0;
 
 <h2>Import:</h2>
 
-```
+```C++
 #include <map>
 ```
 <h2>Properites:</h2>
@@ -295,14 +303,14 @@ return 0;
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
-```
+```C++
 multimap<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 <br>
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```C++
 multimap<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -313,9 +321,10 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```C++
 multimap<Type1, Type2> var_name(map_object);
 ```
+
 Copies the map_object in var_name. The map_object should be of same type.<br><br>
 <h3>3. Insert</h3>
 <h4>1. Insert using insert()</h4>

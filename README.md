@@ -17,7 +17,7 @@
         1. Unordered Maps
         2. Multimap
     5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change **Urgent**)
-    6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md) 
+    6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md)
         1. Priority Queue
     7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.md)
     8. [Bitset](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/bitsets.md)
