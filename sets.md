@@ -13,7 +13,8 @@
 > We can access and traverse set elements using iterators just like vectors.
 <br>
 
-### Operations( Member functions )
+<div id = "members"></div>
+ Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |
@@ -66,7 +67,7 @@ int main()
 Output:
 ```
 size of set 4
-2 3 4 5 
+2 3 4 5
 ```
 <br>
 
@@ -85,7 +86,7 @@ size of set 4
 > Cons : Look up not guaranteed to be O(1) Therotical worst case is O(n)
 
 
-### Note : Implementation && Member functions are same as <a href="#sets">Sets</a> .
+### Note : Implementation && <a href="#members">Member functions</a> are similar as <a href="#sets">Sets</a> .
 
 ### Problems
 
@@ -108,7 +109,15 @@ size of set 4
         m.insert(60); // 60 will be added again to the multiset unlike set
 ```
 
-### Note : [Implementation](http://www.cplusplus.com/reference/set/multiset/multiset/) && Member functions are same as <a href="#sets">Sets</a> .
+### Note : [Implementation](http://www.cplusplus.com/reference/set/multiset/multiset/) && Member functions are same as <a href="#members">Sets</a> .
+
+### Extending <a href="#members"> This </a> :
+
+| <center>   Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
+| :------------- | :------------- | :------------- |
+| <a href="#">rbegin()</a>        | Returns a reverse iterator pointing to the last element in the container     | O(1)
+| <a href="#">rend() </a>      | Returns a reverse iterator pointing to the theoretical element right before the first element in the  container   | O(1)
+| <a href="#">equal_range() </a>     |  The function returns a pair, whose member pair::first is the lower bound of the range (the same as lower_bound), and pair::second is the upper bound     | O(logN)
 
 ### Problems
 
