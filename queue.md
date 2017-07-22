@@ -1,4 +1,4 @@
-<p><b><i>Contents : <i></b> <a href="#queue"> queue </a><a href="#pqueue"> priority_queue </a> </p>
+<p><b><i>Contents : </i></b> <a href="#queue"> queue </a><a href="#pqueue"> priority_queue </a> </p>
 <br>
 
 <div id = "queue"></div>
