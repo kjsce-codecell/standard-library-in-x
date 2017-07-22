@@ -16,7 +16,7 @@
     4. [Maps](./containers/maps.md)
         1. Unordered Maps
         2. Multimap
-    5. [Pairs & Tuples](./containers/Pairs&Tuples.markdown)(not a container actually subject to change **Urgent**)
+    5. [Pairs & Tuples](./containers/Pairs&Tuples.markdown)
     6. [Queue](./containers/queue.md)
         1. Priority Queue
     7. [Stack](./containers/stacks.md)
