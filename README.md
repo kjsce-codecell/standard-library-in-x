@@ -5,22 +5,22 @@
 </div>
 
 ### Index
-1. [Introduction](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/introduction.md)
-2. [What are templates?](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/templates.md)
+1. [Introduction](./introduction.md)
+2. [What are templates?](./templates.md)
 3. Containers
-    1. [Vectors](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Vectors.markdown)
-    2. [Iterators](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Iterators.md)
-    3. [Sets](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/sets.md)
+    1. [Vectors](./Vectors.markdown)
+    2. [Iterators](./Iterators.md)
+    3. [Sets](./sets.md)
         1. Unordered Sets
         2. Multiset
-    4. [Maps](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/maps.md)
+    4. [Maps](./maps.md)
         1. Unordered Maps
         2. Multimap
-    5. [Pairs & Tuples](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/Pairs%26Tuples.markdown)(not a container actually subject to change **Urgent**)
-    6. [Queue](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/queue.md)
+    5. [Pairs & Tuples](./Tuples.markdown)(not a container actually subject to change **Urgent**)
+    6. [Queue](./queue.md)
         1. Priority Queue
-    7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.md)
-    8. [Bitset](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/bitsets.md)
+    7. [Stack](./stacks.md)
+    8. [Bitset](./bitsets.md)
 4. In-built functions
     1. [next_permutation()](./nextpermutation.md)
     2. [max_element()](./maxelement.md)
