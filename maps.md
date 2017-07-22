@@ -3,7 +3,8 @@
 </div>
 
 <h2>Introduction:</h2>
-	A map is a datastructure to store a key value pair.
+
+A map is a datastructure to store a key value pair.
 
 <h2>Import:</h2>
 
@@ -322,7 +323,8 @@ A Multimap is a datastructure to store a key value pair having multiple keys.
 ```
 
 <h2>Properites:</h2>
-	Same as maps but only it can have multiple values for a key.
+
+Same as maps but only it can have multiple values for a key.
 
 <h2>Usage:</h2>
 <h3>1. Initialize</h3>
