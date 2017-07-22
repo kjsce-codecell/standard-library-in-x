@@ -43,7 +43,7 @@ list <int>::iterator it;
 
 !!Note-A few datatypes allow '-' operation to find the distance *second-first* but these aren't allowed for all containers hence we use distance().  
 
-<h2IMPLEMENTATION</h2>
+<h2> IMPLEMENTATION</h2>
 
 The following is the implementation of few iterator function in vectors,
 ```cpp
