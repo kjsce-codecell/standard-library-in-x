@@ -8,7 +8,7 @@ A map is a datastructure to store a key value pair.
 
 <h2>Import:</h2>
 
-```C++
+```cpp
 #include <map>
 ```
 
@@ -34,7 +34,7 @@ Template has two data types first for key and second for value. User defined com
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 <br>
-```
+```cpp
 map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 
@@ -42,7 +42,7 @@ map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```cpp
 map<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -53,7 +53,7 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```cpp
 map<Type1, Type2> var_name(map_object);
 ```
 
@@ -62,7 +62,7 @@ Copies the map_object in var_name. The map_object should be of same type.<br><br
 <h3>3. Insert</h3>
 <h4>1. Insert using key and value directly, using array-like syntax.</h4>
 
-```
+```cpp
 map<char, int> map_object;
 map_object['a'] = 10;
 ```
@@ -71,7 +71,7 @@ map_object['a'] = 10;
 
 <h4>2. Insert using insert()</h4>
 
-```
+```cpp
 map_object.insert(make_pair<char, int>('b', 20));
 ```
 
@@ -82,7 +82,7 @@ map_object.insert(make_pair<char, int>('b', 20));
 The return_object is a pair, first is an iterator to inserted element(or the same key element if insertion was prevented) and second is a boolean object which is true if insert happened and is false if it was stopped.
 <br>
 
-```C++
+```cpp
 #include<maps>
 map<char,int> mymap;
 mymap.insert ( pair<char,int>('a',100) );
@@ -100,19 +100,19 @@ if (ret.second==false) {
 
 <h4>1. Access using key directly</h4>
 
-```
+```cpp
 cout << mymap['b'];
 ```
 
 <h4>2. Access using at()</h4>
 
-```
+```cpp
 cout << mymap.at('b');
 ```
 
 <h4>3. Access using find()</h4>
 
-```
+```cpp
 cout << mymap.find('b')->second;
 cout << (*mymap.find('b')).second;
 ```
@@ -121,7 +121,7 @@ cout << (*mymap.find('b')).second;
 <h3>5. Delete</h3>
 <h4>1. erase()</h4>
 
-```
+```cpp
 mymap.erase('b');
 it = mymap.find('a');
 mymap.erase(it, mymap.end());
@@ -132,7 +132,7 @@ mymap.erase(it, mymap.end());
 <h4>1. Begin()</h4>Returns an iterator to first element in the map.
 <h4>2. End()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
 
-```
+```cpp
 map<char,int> mymap;
 
 mymap['b'] = 100;
@@ -160,7 +160,7 @@ An unordered map is a datastructure to store a key value pair and access it fast
 
 <h2>Import:</h2>
 
-```C++
+```cpp
 #include <unordered_map>
 ```
 
@@ -188,7 +188,7 @@ Template has two data types first for key and second for value.
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
-```
+```cpp
 unordered_map<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 
@@ -196,7 +196,7 @@ unordered_map<Type1, Type2> var_name; //Starts the var_name map with no key valu
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```cpp
 unordered_map<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -207,7 +207,7 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```cpp
 unordered_map<Type1, Type2> var_name(map_object);
 ```
 
@@ -219,7 +219,7 @@ Initialize a list as a key value pair.
 <h3>3. Insert</h3>
 <h4>1. Insert using key and value directly, using array-like syntax.</h4>
 
-```
+```cpp
 unordered_map<char, int> map_object;
 map_object['a'] = 10;
 ```
@@ -228,7 +228,7 @@ map_object['a'] = 10;
 
 <h4>2. Insert using insert()</h4>
 
-```
+```cpp
 map_object.insert(make_pair<char, int>('b', 20));
 ```
 
@@ -238,7 +238,7 @@ map_object.insert(make_pair<char, int>('b', 20));
 
 The return_object is a pair, first is an iterator to inserted element(or the same key element if insertion was prevented) and second is a boolean object which is true if insert happened and is false if it was stopped.
 
-```
+```cpp
 unordered_map<char,int> mymap;
 mymap.insert ( pair<char,int>('a',100) );
 mymap.insert ( pair<char,int>('z',200) );
@@ -255,19 +255,19 @@ if (ret.second==false) {
 
 <h4>1. Access using key directly</h4>
 
-```
+```cpp
 cout << mymap['b'];
 ```
 
 <h4>2. Access using at()</h4>
 
-```
+```cpp
 cout << mymap.at('b');
 ```
 
 <h4>3. Access using find()</h4>
 
-```
+```cpp
 cout << mymap.find('b')->second;
 cout << (*mymap.find('b')).second;
 ```
@@ -277,7 +277,7 @@ cout << (*mymap.find('b')).second;
 <h3>5. Delete</h3>
 <h4>1. erase()</h4>
 
-```
+```cpp
 mymap.erase('b');
 it = mymap.find('a');
 mymap.erase(it, mymap.end());
@@ -288,7 +288,7 @@ mymap.erase(it, mymap.end());
 <h4>1. Begin()</h4>Returns an iterator to first element in the map.
 <h4>2. End()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
 
-```
+```cpp
 unordered_map<char,int> mymap;
 
 mymap['b'] = 100;
@@ -318,7 +318,7 @@ A Multimap is a datastructure to store a key value pair having multiple keys.
 
 <h2>Import:</h2>
 
-```C++
+```cpp
 #include <map>
 ```
 
@@ -334,7 +334,7 @@ Template has two data types first for key and second for value. User defined com
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
-```
+```cpp
 multimap<Type1, Type2> var_name; //Starts the var_name map with no key value pairs
 ```
 
@@ -342,7 +342,7 @@ multimap<Type1, Type2> var_name; //Starts the var_name map with no key value pai
 
 <h4>2. Range:</h4> Used to copy range of elements from one map to other.
 
-```
+```cpp
 multimap<Type1, Type2> var_name1;
 //fill 10 elements in var_name
 //If want to copy elements from 0-10
@@ -353,7 +353,7 @@ Note: The template types should be same.<br>
 <h4>3. Copy:</h4>
 Copy entire container in new map object.<br>
 
-```
+```cpp
 multimap<Type1, Type2> var_name(map_object);
 ```
 

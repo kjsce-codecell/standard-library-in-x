@@ -19,7 +19,7 @@ Assume we have to swap two variables of int type and two of float type. Then, we
 #include <iostream>
 using namespace std ;
 // creating a generic function ‘swap (parameter-list)’ using template :
-template <class X> 
+template <class X>
 void swap( X &a, X &b) {
     X tp;
     tp = a;
@@ -31,8 +31,8 @@ void swap( X &a, X &b) {
 int main( ) {
     int a = 10, b = 20 ;
     float c = 10.5, d = 20.5 ;
-    swap(a , b);          // function swapping ‘int’ elements 
-    swap(c , d);          // function swapping ‘float’ elements 
+    swap(a , b);          // function swapping ‘int’ elements
+    swap(c , d);          // function swapping ‘float’ elements
     return 0;
 }
 ```
@@ -43,12 +43,3 @@ Swapped elements values of a and b are 20 and 10 respectively.
 Swapped elements values of a and b are 20.5 and 10.5 respectively.
 ```
 After creating the generic function, compiler will automatically generate correct code for the type of data used while executing the function.
-
-
-
-  
-
-
-
-
-

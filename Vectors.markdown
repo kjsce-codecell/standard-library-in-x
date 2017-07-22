@@ -14,7 +14,7 @@ vector<datatype> c (starting iterator/pointer,ending iterator/pointer); //insert
 vector<datatype> d (name of vector to be copied);    
 vector<vector<datatype> > matrix(no of rows,vector<datatype>(no of coloumn,default value)) //Declaring a 2D array
 
-!!Note:
+// Note:
 vector<datatype> v[10]; // following declaration isn't a vector with 10 elements but an array of size ten having vector elements
 
 ```
@@ -35,15 +35,15 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 
 Another very important thing that you should remember: When vector is passed as a parameter to some function, a copy of vector is actually created. It may take a lot of time and memory to create new vectors when they are not really needed.
 ```cpp
-void some_function(vector<int> v) { // Never do it unless you’re sure what you do! 
-      // ... 
- } 
+void some_function(vector<int> v) { // Never do it unless you’re sure what you do!
+      // ...
+ }
 ```
 Instead, use the following construction:
 ```cpp
-int modify_vector(vector<int>& v) { // Correct 
-      V[0]++; 
- } 
+int modify_vector(vector<int>& v) { // Correct
+      V[0]++;
+ }
 ```
 
 <h2>Implementation</h2>
