@@ -1,4 +1,4 @@
-<h1 align="center"><a href="#"> Pairs & Tuples </a></h1><br>
+<h1 align="center"> Pairs & Tuples </h1><br>
 
 <h1 align="center"> Pairs </h1>
 
