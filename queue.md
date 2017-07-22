@@ -51,6 +51,7 @@ int main(){
 ### Problems
 
  * codechef
+ 
 <br />
 
 <div id = "pqueue"></div>
@@ -61,6 +62,7 @@ int main(){
 > In a priority queue, an element with high priority is served before an element with low priority.
 
 > All insertion / deletion operations takes place in Logarithmic time .
+
 
 <br />
 
@@ -73,6 +75,7 @@ int main(){
 | <a href="#">top( ) </a>    | Returns a reference to the largest element in the priority queue.       | O(1)
 | <a href="#">empty( ) </a>       |  Returns true if the priority queue is empty and false if the priority queue has at least one element       | O(1)
 | <a href="#">size( ) </a>      | Returns the number of element in the priority queue.       | O(1)
+
 <br />
 
 
