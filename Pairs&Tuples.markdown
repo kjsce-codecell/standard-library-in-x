@@ -1,8 +1,8 @@
 <h1 align="center"> Pairs & Tuples </h1><br>
 
-<h1 align="center"> Pairs </h1>
+<h1 align="center"><a href="#pairs" > Pairs </a> </h1>
 
-<h2 id="intro1">Introduction</h2>
+<h2>Introduction</h2>
 
 Many times while solving various problem where we require 2 values to completely linked with each other in such a scenario it is best to use pairs.<br>
 Pair is a container that can be used to bind together a two values which may be of different types. Pair provides a way to store two heterogeneous objects as a single unit.
@@ -41,7 +41,7 @@ pair <data_type1, data_type2> g4(g3);    //copy of g3
 
 ```
 
-<h2 id="func1" >Functions</h2>
+<h2>Functions</h2>
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :-------------                | :-------------                   | :-------------               |
@@ -49,7 +49,7 @@ pair <data_type1, data_type2> g4(g3);    //copy of g3
 | <a>operators(=, ==, !=, >=, <=) : </a>        |These operations can be appllied  to pairs|O(1)
 | <a>swap()</a>        |This function swaps the contents of one pair object with the contents of another pair object. The pairs must be of same type.       |O(1)
 
-<h2 id="implement1">Implementation</h2>
+<h2>Implementation</h2>
 
 ```cpp
 #include <iostream>
