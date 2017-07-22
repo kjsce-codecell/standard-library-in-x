@@ -10,7 +10,7 @@ If the function can determine the next higher permutation, it rearranges the ele
 
 ## Declaration
 
-```
+```cpp
 next_permutation(iterator for start of the range,iterator for end of the range which is not included in range);
 ```
 
@@ -25,30 +25,30 @@ using namespace std;
 int main() {
 	cout<<"String Example"<<endl;
 	cout<<endl;
-	
+
     string s = "aab";
-	
+
     do{
     cout<<s<<endl;
     } while(next_permutation(s.begin(), s.end()));
-    
+
     cout<<"After loop: "<<s<<endl;
-    
+
     cout<<endl<<endl;
-    
+
     cout<<"Integer Example"<<endl;
     cout<<endl;
-    	
+
     int myints[] = {1,2,3};
-    
+
     cout << "The 3! possible permutations with 3 elements:"<<endl;
-      
+
     do {
         cout << myints[0] << ' ' << myints[1] << ' ' << myints[2] << endl;
     } while (next_permutation(myints,myints+3));
-    
+
     cout<<"After loop: "<< myints[0]<<' '<< myints[1]<< ' ' << myints[2] <<endl;
-      
+
     return 0;
 }
 
