@@ -12,16 +12,24 @@
 ```
 
 <h2>Properties:</h2>
-	1. It is a datastructure which stores a key value pair.
-	2. Elements are referenced using their keys not by position(unlike arrays).
-	3. The elements are stored in orders(i.e. they are pre-sorted).
-	4. Internal implementation is like a binary tree.
-	5. Size is increased and decreased automatically, according to storage needs.
-	6. Keys are unique. Same key cannot be used to store more than 1 values.
+
+1. It is a datastructure which stores a key value pair.
+
+2. Elements are referenced using their keys not by position(unlike arrays).
+
+3. The elements are stored in orders(i.e. they are pre-sorted).
+
+4. Internal implementation is like a binary tree.
+
+5. Size is increased and decreased automatically, according to storage needs.
+
+6. Keys are unique. Same key cannot be used to store more than 1 values.
 
 <h2>Usage:</h2>
 <h3>1. Initialize</h3>
-		Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
+
+Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
+
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 <br>
