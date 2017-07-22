@@ -25,7 +25,7 @@
 
 ### Implementation
 
-```C++
+```cpp
 #include<iostream>
 #include<cstdio>
 #include<queue>           
@@ -51,7 +51,7 @@ int main(){
 ### Problems
 
  * codechef
- 
+
 <br />
 
 <div id = "pqueue"></div>
@@ -81,7 +81,7 @@ int main(){
 
 ### Implementation
 
-```C++
+```cpp
 #include <iostream>
 #include <queue>
 
