@@ -1,6 +1,6 @@
 <h1 align="center"><a href="#"> Pairs & Tuples </a></h1><br>
 
-<h1 align="center"><a href="#"> Pairs </a></h1>
+<h1 align="center"> Pairs </h1>
 
 <h2 id="intro1">Introduction</h2>
 
@@ -185,7 +185,7 @@ The vector after applying sort operation is:
 ```
 
 
-<h1 align="center"><a href="#"> Tuples </a></h1>
+<h1 align="center"> Tuples</h1>
 
 
 <h2>Introduction</h2>
