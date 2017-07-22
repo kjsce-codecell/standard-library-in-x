@@ -43,7 +43,7 @@ list <int>::iterator it;
 
 !!Note-A few datatypes allow '-' operation to find the distance *second-first* but these aren't allowed for all containers hence we use distance().  
 
-<h2>Implementation</h2>
+<h2IMPLEMENTATION</h2>
 
 The following is the implementation of few iterator function in vectors,
 ```cpp
@@ -80,13 +80,13 @@ The position of iterator after advancing is :
 ```
 <br />
 
-<h2>REVERSE ITERATORS</h2>
+<h1>REVERSE ITERATORS</h1>
 Reverse iterator is an iterator adaptor that reverses the direction of a given iterator.
 In other words, when provided with a bidirectional iterator, std::reverse_iterator produces a new iterator that moves from the end to the beginning of the sequence defined by the underlying bidirectional iterator.<br>
 Here we make us of rend() and rbegin() where rbegin() points to the last element of the container and rend() points to one position before the first element.<br>
 Using the operation ++ makes the iterator move a step towards the first element  
 
-<h3>IMPLEMENTATION</h3>
+<h2>IMPLEMENTATION </h2>
 
 ```cpp
 for(vector<int>::reverse_iterator i=ar.rbegin();i!=ar.rend();++i)
@@ -105,7 +105,7 @@ Note-(For some lazy people) some efforts in typing of syntax can be reduced if y
 using this the above implementation would look like:
 
 ```cpp
-for(auto i=ar.rbegin();i!=ar.rend();++i) 
+for(auto i=ar.rbegin();i!=ar.rend();++i)
 {
 	cout<<*i<<" ";
 }
