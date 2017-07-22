@@ -34,31 +34,24 @@ int main ()
     cout<<"Hello World"<<endl;
     return 0;
 }
-
 ```
 
 You can compile and run it from the unix prompt as follows :
 
 ```shell  
-
 g++ helloworld.cpp
-
 ```
 
 This creates an executable called "a.out". You can run it by typing
 
 ```shell
-
 ./a.out
-
 ```
 
 Since no executable name was specified to g++, a.out is chosen by default. Use the `-o` option to change the name:
 
 ```shell
-
 g++ helloworld.cpp -o helloworld
-
 ```
 creates an executable called "helloworld".
 
@@ -73,14 +66,12 @@ programming contest. And if you ever have to, you can use functions like cin.get
 part of C language (like math.h, string.h, stdio.h, time.h, stdlib.h, ctype.h, etc.) must have 'c' as a prefix to them (and shouldn't be having .h at the end). You include them like:
 
 ```cpp
-
 #include<cmath>
 #include<cstring>
 #include<cstdio>
 #include<ctime>
 #include<cstdlib>
 #include<cctype>
-
 ```
 
   - Either you prefix std:: with all cout and cin statements and few other places, or we'd advice you to add the following line outside the main function: using namespace std;
