@@ -8,14 +8,14 @@ Many times while programming, there is a need for creating functions which perfo
 The way we use normal parameters to pass as a value to function, in the same manner template parameters can be used to pass type as argument to function. Basically, it tells what type of data is being passed to the function.
 
 The syntax for creating a generic function:
-```
+```cpp
 template <class  type> return-type function-name (parameter-list)
 ```
 Here, ‘type’ is just a placeholder used to store the data type when this function is used you can use any other name instead. Class is used to specify the generic type of template, alternatively typename can be used instead of it. Let’s try to understand it with an example:
 
 Assume we have to swap two variables of int type and two of float type. Then, we will have to make two functions where one can swap int type variables and the other one can swap float type variables. But if we use a generic function here, then we can simply make one function and can swap both type of variables by passing their different type in the arguments. Let’s implement this:
 
-```
+```cpp
 #include <iostream>
 using namespace std ;
 // creating a generic function ‘swap (parameter-list)’ using template :
