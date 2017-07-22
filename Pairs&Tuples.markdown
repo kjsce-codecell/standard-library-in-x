@@ -188,7 +188,7 @@ The vector after applying sort operation is:
 <h1 align="center"> Tuples</h1>
 
 
-<h2>Introduction</h2>
+<h2> Introduction</h2>
 
 Tuples are nothing completely different but pairs extended from their limitation of size two. In problem solving many time we may accross situation where we require 3-4 values linked together as one that is when we use tuples<br>
 A tuple is an object that can hold a number of elements. The elements can be of different data types. The elements of tuples are initialized as arguments in order in which they will be accessed
@@ -206,7 +206,7 @@ A tuple is an object that can hold a number of elements. The elements can be of 
 | <a>tuple_cat()</a>        |This function concatenates two tuples and returns a new tuple|
 
 
-<h2>Implementation</h2>
+<h2> Implementation</h2>
 
 
 ```cpp
@@ -291,6 +291,6 @@ The unpacked tuple values (with ignore) are : 20 17.5
 The new tuple elements in order are : b 10 20.5 20 g 17.5
 ```
 
-<h2>Note</h2>
+<h2> Note</h2>
 Although it might seem to you that tuples are not of much importance but that is not the case it does saves your time in and makes your code clean for writing nested pairs<br>
 Also the functionality of sorting of pairs can be extended to tuples by appropriately modifying the custom function involved.
