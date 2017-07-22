@@ -196,9 +196,6 @@ Copies the map_object in var_name. The map_object should be of same type.<br><br
 <h4>4. List:</h4>
 Initialize a list as a key value pair.
 
-```
-unordered_map<string, string> var_name({{"apple", "red"}, {"mango", "yellow"}});
-```
 
 <h3>3. Insert</h3>
 <h4>1. Insert using key and value directly, using array-like syntax.</h4>
