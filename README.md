@@ -9,7 +9,7 @@
 2. [What are templates?](./templates.md)
 3. Containers
     1. [Vectors](./containers/Vectors.markdown)
-    2. [Iterators](./containers/Iterators.md)
+    2. [Iterators](./Iterators.md)
     3. [Sets](./containers/sets.md)
         1. Unordered Sets
         2. Multiset
