@@ -154,7 +154,8 @@ return 0;
 </div>
 
 <h2>Introduction:</h2>
-	An unordered map is a datastructure to store a key value pair and access it fast enough.
+
+An unordered map is a datastructure to store a key value pair and access it fast enough.
 
 <h2>Import:</h2>
 
@@ -163,17 +164,26 @@ return 0;
 ```
 
 <h2>Properties:</h2>
-	1. It is a datastructure which stores a key value pair.
-	2. Elements are referenced using their keys not by position(unlike arrays).
-	3. The elements are not sorted.
-	4. Internal implementation is using hashing.
-	5. Size is increased and decreased automatically, according to storage needs.
-	6. Keys are unique. Same key cannot be used to store more than 1 values.
-	7. Introduced in C++11.
+
+1. It is a datastructure which stores a key value pair.
+
+2. Elements are referenced using their keys not by position(unlike arrays).
+
+3. The elements are not sorted.
+
+4. Internal implementation is using hashing.
+
+5. Size is increased and decreased automatically, according to storage needs.
+
+6. Keys are unique. Same key cannot be used to store more than 1 values.
+
+7. Introduced in C++11.
 
 <h2>Usage</h2>
 <h3>1. Initialize</h3>
-		Template has two data types first for key and second for value.
+
+Template has two data types first for key and second for value.
+
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
@@ -302,7 +312,8 @@ return 0;
 </div>
 
 <h2>Introduction:</h2>
-	A Multimap is a datastructure to store a key value pair having multiple keys.
+
+A Multimap is a datastructure to store a key value pair having multiple keys.
 
 <h2>Import:</h2>
 
@@ -315,7 +326,9 @@ return 0;
 
 <h2>Usage:</h2>
 <h3>1. Initialize</h3>
-		Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
+
+Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
+
 <h3>2. Constructors</h3>
 <h4>1. Default:</h4> Makes an empty container.
 
