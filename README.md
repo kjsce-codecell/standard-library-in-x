@@ -35,5 +35,10 @@
     11. [set_difference()](./functions/set_difference.md)
     12. [max() & min()](./functions/MaxMin.md)
     13. [is_sorted()](./functions/is_sorted.md)
- 5. [Problems](./problems.md)
+ 5. [Problems]
+    1. [Second Year Pains-KJCP02](./problems/kjcp02.md)
+    2. [Sorting Tool-KJCPR]
+    3. [Snake Eat-SNAKEEAT](./problems/snakeeat.md)
+    4. [Ipc trainers-IPCTRAIN](./problems/ipctrain.md)
+    5. [Chef Subseq-CHEFCODE](./problems/chefcode.md)
  6. [Reference](./reference.md)
