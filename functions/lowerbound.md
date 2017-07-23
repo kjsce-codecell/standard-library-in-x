@@ -8,7 +8,7 @@
 
 ## Declaration
 
-```
+```cpp
 lower_bound(iterator for start of the range,iterator for end of the range which is not included in range,value);
 ```
 
@@ -22,12 +22,12 @@ using namespace std;
 
 int main() {
   int numbers[] = {1,2,3,4,4,4,5,6,6,6,7,8};
-  
+
   vector <int> v(numbers,numbers+12);
   vector <int>::iterator it;
-  
+
   it = lower_bound(v.begin(),v.end(),4);//first 4 in numbers
-      
+
   cout<<"lower bound at index : "<<it-v.begin()<<endl;
   return 0;
 }

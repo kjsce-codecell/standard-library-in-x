@@ -33,7 +33,7 @@
 
 ### Implementation
 
-```C++
+```cpp
 // declaratation
 
 set<int> s1;                               // Empty Set
@@ -41,7 +41,8 @@ int a[]= {1, 2, 3, 4, 5, 5};
 set<int> s2 (a, a + 6);                    // s2 = {1, 2, 3, 4, 5}
 set<int> s4 (s3.begin(), s3.end());         // Set created using iterators
 ```
-```C++
+
+```cpp
 #include <iostream>
 #include<cstdio>
 #include <set>
@@ -101,7 +102,7 @@ size of set 4
 > Internally, the elements in a multiset are always sorted following a specific strict weak ordering criterion indicated by its internal [comparison object](http://www.cplusplus.com/reference/map/multimap/key_comp/) (of type Compare).
 <br>
 
-```C++
+```cpp
         multiset <int , greater<int> > m ;
         m.insert(40);
         m.insert(60);

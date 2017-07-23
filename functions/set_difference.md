@@ -1,4 +1,4 @@
-<h1 align="center"> set_difference() </h1> 
+<h1 align="center"> set_difference() </h1>
 
 <h3> Function </h3>
 
@@ -12,14 +12,14 @@
 
 <h3> Declaration </h3>
 
-```
+```cpp
 it = set_union (first1, last1, first2, last2, result);
 ```
 where,
-**first1, last1**: 
+**first1, last1**:
 Input iterators to the initial and final positions of the first sorted sequence.The range used is [first1,last1), which contains all the elements between first1 and last1, including the element pointed by first1 but not the element pointed by last1.
 
-**first2, last2**: 
+**first2, last2**:
 Input iterators to the initial and final positions of the second sorted sequence.The range used is [first2,last2), which contains all the elements between first2 and last2, including the element pointed by first2 but not the element pointed by last2.
 
 **result**:
@@ -31,7 +31,7 @@ Returns an iterator past the end of the constructed range.
 
 <h3> Example </h3>
 
-```C++
+```cpp
 #include <iostream>    
 #include <algorithm>    // set_difference, sort
 #include <vector>       // vector
@@ -53,4 +53,3 @@ Output:
 ```
 5 15 25
 ```
-
