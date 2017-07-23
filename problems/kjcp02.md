@@ -1,26 +1,29 @@
-```
+<h2 align="center">Second Year Pains </h2>
+<a href="https://www.codechef.com/problems/KJCP02"> Problem link</a>
+
+```C++
 #include<cstdio>
 #include<map>
-#include<iostream> 
+#include<iostream>
 using namespace std;
- 
-int main() 
+
+int main()
 {
     int T;
     scanf("%d", &T);
- 
+
     while (T--) {
         int N, M;
         scanf("%d %d", &N, &M);
- 
+
         map<long long, int> m;
- 
+
         long long c;
         for (int i = 0; i < N; i++) {
             scanf("%lld", &c);
             m[c] = 1;
         }
- 
+
         for (int i = 0; i < M; i++) {
             scanf("%lld", &c);
             if (m[c]) printf("YES\n");
@@ -30,7 +33,7 @@ int main()
             }
         }
     }
- 
+
     return 0;
 }
 ```
