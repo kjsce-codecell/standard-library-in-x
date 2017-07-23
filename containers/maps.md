@@ -2,17 +2,17 @@
 	<h1 align="center">Map</h1>
 </div>
 
-<h2 id="intro_m" >Introduction:</h2>
+<h2 id="intro_m" > Introduction:</h2>
 
 A map is a datastructure to store a key value pair.
 
-<h2 id="import_m">Import:</h2>
+<h2 id="import_m"> Import:</h2>
 
 ```cpp
 #include <map>
 ```
 
-<h2 id="prop_m">Properties:</h2>
+<h2 id="prop_m"> Properties:</h2>
 
 1. It is a datastructure which stores a key value pair.
 
@@ -26,7 +26,7 @@ A map is a datastructure to store a key value pair.
 
 6. Keys are unique. Same key cannot be used to store more than 1 values.
 
-<h2 id = "use_m">Usage:</h2>
+<h2 id = "use_m"> Usage:</h2>
 <h3>1. Initialize</h3>
 
 Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
@@ -143,7 +143,7 @@ for (std::map<char,int>::iterator it=mymap.begin(); it!=mymap.end(); it++)
 return 0;
 ```
 
-<h2 id="comp_m">Complexities</h2>
+<h2 id="comp_m"> Complexities</h2>
 
 <h3>Insert: O(log(n))</h3>
 <h3>Access: O(log(n))</h3>
@@ -154,7 +154,7 @@ return 0;
 	<h1 align="center">Unordered Map</h1>
 </div>
 
-<h2 id="intro_um">Introduction:</h2>
+<h2 id="intro_um">Introduction: </h2>
 
 An unordered map is a datastructure to store a key value pair and access it fast enough.
 
@@ -164,7 +164,7 @@ An unordered map is a datastructure to store a key value pair and access it fast
 #include <unordered_map>
 ```
 
-<h2 id="prop_um">Properties:</h2>
+<h2 id="prop_um">Properties: </h2>
 
 1. It is a datastructure which stores a key value pair.
 
@@ -180,7 +180,7 @@ An unordered map is a datastructure to store a key value pair and access it fast
 
 7. Introduced in C++11.
 
-<h2 id="use_um">Usage</h2>
+<h2 id="use_um">Usage </h2>
 <h3>1. Initialize</h3>
 
 Template has two data types first for key and second for value.
@@ -299,7 +299,7 @@ for (unordered_map<char,int>::iterator it=mymap.begin(); it!=mymap.end(); it++)
 return 0;
 ```
 
-<h2 id="comp_um">Complexities</h2>
+<h2 id="comp_um">Complexities </h2>
 
 <h3>Insert (Average Case): O(1)</h3>
 <h3>Insert (Worst Case): O(n)</h3>
@@ -312,21 +312,21 @@ return 0;
 	<h1 align="center">Multimap</h1>
 </div>
 
-<h2 id="intro_mm">Introduction:</h2>
+<h2 id="intro_mm"> Introduction: </h2>
 
 A Multimap is a datastructure to store a key value pair having multiple keys.
 
-<h2 id="import_mm">Import:</h2>
+<h2 id="import_mm"> Import: </h2>
 
 ```cpp
 #include <map>
 ```
 
-<h2 id="prop_mm">Properites:</h2>
+<h2 id="prop_mm"> Properites: </h2>
 
 Same as maps but only it can have multiple values for a key.
 
-<h2 id="use_mm">Usage:</h2>
+<h2 id="use_mm"> Usage: </h2>
 <h3>1. Initialize</h3>
 
 Template has two data types first for key and second for value. User defined comparator can be added as third parameter.
@@ -380,7 +380,7 @@ Deletes an element using its iterator. Same as maps and unordered_maps.<br>
 Same as maps and unordered_maps.<br>
 <a href="http://www.cplusplus.com/reference/map/multimap/begin/">Example</a>
 
-<h2 id="comp_mm">Complexities</h2>
+<h2 id="comp_mm"> Complexities </h2>
 <h3>Insert: O(log(n))</h3>
 <h3>Access: O(log(n))</h3>
 <h3>Delete: O(1) + Access = O(log(n))</h3>
