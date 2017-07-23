@@ -11,7 +11,7 @@
 <br>
 
 <div id = "members"></div>
- Operations( Member functions )
+### Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :------------- | :------------- | :------------- |

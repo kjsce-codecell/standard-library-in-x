@@ -1,4 +1,7 @@
-```
+<h2 align="center">SNAKEEAT </h2>
+<a href="https://www.codechef.com/problems/SNAKEEAT"> Problem link</a>
+
+```C++
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -26,7 +29,7 @@
 #define M(a,b) (a>b? a : b)
 #define mod 1000000007
 using namespace std;
- 
+
 int main()
 {
     llu i,j,k,l,e,n,m,t,f,c;
@@ -35,7 +38,7 @@ int main()
     {
         inp(n);inp(m);
         llu a[n],sum[n+1];
-        fi(i,0,n) 
+        fi(i,0,n)
             inp(a[i]);
         sort(alla(a));
         sum[0]=0;
