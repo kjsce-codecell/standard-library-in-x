@@ -1,6 +1,3 @@
-<p><b><i>Contents : </i></b> <a href="#sets"> sets </a><a href="#unordered_sets"> unordered_sets</a><a href="#multiset"> multiset </a> </p>
-<br>
-
 <div id ="sets"> </div>
 <h1 align="center" ><a href="http://www.cplusplus.com/reference/set/set/"> Sets </a></h1>
 

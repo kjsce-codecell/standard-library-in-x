@@ -1,6 +1,6 @@
 <h1 align="center"><a href="#"> Iterators </a></h1>
 
-<h2>INTRODUCTION</h2>
+<h2> INTRODUCTION</h2>
 
 What are iterators? In STL iterators are the most general way to access data in containers<br>
 An iterator is any object that, points to some element in a range of elements (such as an array or a container) and has the ability
@@ -10,7 +10,7 @@ can be accessed through the bracket( **[ ]** ) operator.<br>
 The main advantage of iterators, of course, is that they greatly increase the reuse of code: your own algorithms, based on iterators, will work on a wide range of containers, and your own containers,
 which provide iterators, may be passed to a wide range of standard functions.
 
-<h2>CONSTRUCTION</h2>
+<h2> CONSTRUCTION</h2>
 general construction of iterators looks like
 
 ```cpp
@@ -29,7 +29,7 @@ list <int>::iterator it;
 ```
 <br>
 
-<h2>FUNCTIONS</h2>
+<h2> FUNCTIONS</h2>
 
 | <center>Function </center>    | <center>What it does ?</center>  |
 | :------------- | :------------- |
@@ -81,6 +81,9 @@ The position of iterator after advancing is :
 <br />
 
 <h1>REVERSE ITERATORS</h1>
+
+<h2>INTRODUCTION </h2>
+
 Reverse iterator is an iterator adaptor that reverses the direction of a given iterator.
 In other words, when provided with a bidirectional iterator, std::reverse_iterator produces a new iterator that moves from the end to the beginning of the sequence defined by the underlying bidirectional iterator.<br>
 Here we make us of rend() and rbegin() where rbegin() points to the last element of the container and rend() points to one position before the first element.<br>

@@ -1,6 +1,3 @@
-<p><b><i>Contents : </i></b> <a href="#queue"> queue </a><a href="#pqueue"> priority_queue </a> </p>
-<br />
-
 <div id = "queue"></div>
 <h1 align="center"><a href="http://www.cplusplus.com/reference/queue/queue/"> Queue </a></h1>
 
