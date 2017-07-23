@@ -1,7 +1,3 @@
-<h2 align="center">IPCTRAIN </h2>
-<a href="https://www.codechef.com/problems/IPCTRAIN"> Problem link</a>
-
-```C++
 #include<iostream>
 #include<vector>
 #include<cstdio>
@@ -12,7 +8,7 @@
 #include<set>
 #include<queue>
 #include<climits>
-#include<iomanip>
+#include<iomanip> 
 using namespace std;
 #define uii long long int
 #define it(a)  ::iterator a
@@ -30,9 +26,9 @@ using namespace std;
 #define set(n,x) x |= (1 << n)
 #define unset(n,x) x &= ~(1<<n)
 #define check(n,x) (x & 1 << n) != 0
-
-
-
+ 
+ 
+ 
 int main(){
     tc(T)
     {
@@ -69,4 +65,3 @@ int main(){
 	return 0;
 }
 
-```
