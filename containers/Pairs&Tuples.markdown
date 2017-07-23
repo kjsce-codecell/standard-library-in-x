@@ -2,12 +2,12 @@
 
 <h1 align="center"><a href="#pairs" > Pairs </a> </h1>
 
-<h2>Introduction</h2>
+<h2> Introduction</h2>
 
 Many times while solving various problem where we require 2 values to completely linked with each other in such a scenario it is best to use pairs.<br>
 Pair is a container that can be used to bind together a two values which may be of different types. Pair provides a way to store two heterogeneous objects as a single unit.
 
-<h2 id="const1">construction</h2>
+<h2 > construction</h2>
 The simplest form in general would be the following:
 
 ```cpp
@@ -41,7 +41,7 @@ pair <data_type1, data_type2> g4(g3);    //copy of g3
 
 ```
 
-<h2>Functions</h2>
+<h2> Functions</h2>
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :-------------                | :-------------                   | :-------------               |
@@ -49,7 +49,7 @@ pair <data_type1, data_type2> g4(g3);    //copy of g3
 | <a>operators(=, ==, !=, >=, <=) : </a>        |These operations can be appllied  to pairs|O(1)
 | <a>swap()</a>        |This function swaps the contents of one pair object with the contents of another pair object. The pairs must be of same type.       |O(1)
 
-<h2>Implementation</h2>
+<h2> Implementation</h2>
 
 ```cpp
 #include <iostream>
@@ -117,7 +117,7 @@ After swapping:
 Contents of pair1 = 9,12
 Contents of pair2 = 1,12
 ```
-<h2>Note</h2>
+<h2> Note</h2>
 Pairs are mainly used at places where we need to rearrange certain data types(sort/insert) but keep together another value related to along with it throughout the process for certain use <br>
 By default sorting a pair related container causes data compared on the basis of fist parameter although we can create some custom compare function to change the behavior<br>
 
@@ -188,13 +188,13 @@ The vector after applying sort operation is:
 <h1 align="center"> Tuples</h1>
 
 
-<h2> Introduction</h2>
+<h2>Introduction </h2>
 
 Tuples are nothing completely different but pairs extended from their limitation of size two. In problem solving many time we may accross situation where we require 3-4 values linked together as one that is when we use tuples<br>
 A tuple is an object that can hold a number of elements. The elements can be of different data types. The elements of tuples are initialized as arguments in order in which they will be accessed
 
 
-<h2>Operations</h2>
+<h2>Operations </h2>
 
 | <center>Function </center>    | <center>What it does ?</center>  |
 | :-------------                | :-------------                   |
@@ -206,7 +206,7 @@ A tuple is an object that can hold a number of elements. The elements can be of 
 | <a>tuple_cat()</a>        |This function concatenates two tuples and returns a new tuple|
 
 
-<h2> Implementation</h2>
+<h2>Implementation </h2>
 
 
 ```cpp
@@ -291,6 +291,6 @@ The unpacked tuple values (with ignore) are : 20 17.5
 The new tuple elements in order are : b 10 20.5 20 g 17.5
 ```
 
-<h2> Note</h2>
+<h2>Note </h2>
 Although it might seem to you that tuples are not of much importance but that is not the case it does saves your time in and makes your code clean for writing nested pairs<br>
 Also the functionality of sorting of pairs can be extended to tuples by appropriately modifying the custom function involved.
