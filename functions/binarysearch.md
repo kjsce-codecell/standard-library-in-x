@@ -8,7 +8,7 @@
 
 ## Declaration
 
-```
+```cpp
 binary_search(iterator for start of the range,iterator for end of the range which is not included in range,value to be searched);
 ```
 
@@ -28,14 +28,14 @@ int main() {
 
   cout << "looking for a 3... ";
   if (binary_search (v.begin(), v.end(), 3))
-    cout << "found!"<<endl; 
-  else 
+    cout << "found!"<<endl;
+  else
     cout << "not found"<<endl;
 
   cout << "looking for a 6... ";
   if (binary_search (v.begin(), v.end(), 6))
-    cout << "found!"<<endl; 
-  else 
+    cout << "found!"<<endl;
+  else
     cout << "not found"<<endl;
 
     return 0;

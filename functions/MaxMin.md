@@ -1,4 +1,4 @@
-<h1 align="center"> Max and Min </h1> 
+<h1 align="center"> Max and Min </h1>
 
 <h2> Max </h2>
 
@@ -6,13 +6,13 @@
 Returns the largest of a and b. If both are equivalent, a is returned.
 <h3> Declaration </h3>
 
-```
+```cpp
 max(variable or value 1,variable or value 2);
 ```
 
 <h3> Example </h3>
 
-```C++
+```cpp
 #include <iostream>     
 #include <algorithm> //for max
 using namespace std;
@@ -58,5 +58,3 @@ Output:
 m
 1.23
 ```
-
-

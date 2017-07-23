@@ -1,4 +1,4 @@
-<h1 align="center"> is_sorted() </h1> 
+<h1 align="center"> is_sorted() </h1>
 
 <h3> Function </h3>
 
@@ -6,11 +6,11 @@
 
 <h3> Declaration </h3>
 
-```
+```cpp
 is_sorted(first,last);
 ```
 where,
-**first, last**: 
+**first, last**:
 Input iterators to the initial and final positions of the first sorted sequence.The range used is [first,last), which contains all the elements between first1 and last1, including the element pointed by first but not the element pointed by last.
 
 **Return value**:
@@ -21,7 +21,7 @@ Input iterators to the initial and final positions of the first sorted sequence.
 
 <h3> Example </h3>
 
-```C++
+```cpp
 // is_sorted example
 #include <iostream>    
 #include <algorithm>    //is_sorted,prev_permutation
@@ -52,4 +52,3 @@ Output:
 1 2 3 4
 is_sorted returned true!
 ```
-
