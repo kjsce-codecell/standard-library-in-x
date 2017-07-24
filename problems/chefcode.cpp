@@ -1,9 +1,5 @@
-<h2 align="center">CHEFCODE </h2>
-<a href="https://www.codechef.com/problems/CHEFCODE"> Problem link</a>
+//Only-backtracking solution
 
-** Only-backtracking solution **
-
-```C++
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -64,11 +60,9 @@ int main()
     cout<<c-1<<endl;
     return 0;
 }
-```
 
-** Meet in the middle solution **
+//Meet in the middle solution
 
-```C++
 #include<iostream>
 #include<cstdio>
 #include<cstring>
@@ -169,4 +163,3 @@ int main()
     cout<<c<<endl;
     return 0;
 }
-```

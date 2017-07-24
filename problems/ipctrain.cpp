@@ -1,7 +1,3 @@
-<h2 align="center">IPCTRAIN </h2>
-<a href="https://www.codechef.com/problems/IPCTRAIN"> Problem link</a>
-
-```C++
 #include<iostream>
 #include<vector>
 #include<cstdio>
@@ -62,5 +58,3 @@ int main(){
     }
 	return 0;
 }
-
-```
