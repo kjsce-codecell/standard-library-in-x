@@ -8,7 +8,7 @@
 #include<set>
 #include<queue>
 #include<climits>
-#include<iomanip> 
+#include<iomanip>
 using namespace std;
 #define uii long long int
 #define it(a)  ::iterator a
@@ -26,24 +26,18 @@ using namespace std;
 #define set(n,x) x |= (1 << n)
 #define unset(n,x) x &= ~(1<<n)
 #define check(n,x) (x & 1 << n) != 0
- 
- 
- 
+
+
 int main(){
     tc(T)
     {
         slld(N);slld(D);
         vector< pair<uii, uii> > V[D+1];
         uii count = 0;
-        bool present[D+1];
-        for(uii i = 0;i<=D;i++){
-            present[i] = false;
-        }
         for(uii i = 0;i<N;i++){
             slld(d);slld(t);slld(s);
             V[d].push_back(make_pair(s,t));
             count += (t*s);
-            present[d] = true;
         }
         vector<pair<uii, uii> > ::iterator it;
         priority_queue< pair<uii,uii> > pq;
@@ -64,4 +58,3 @@ int main(){
     }
 	return 0;
 }
-
