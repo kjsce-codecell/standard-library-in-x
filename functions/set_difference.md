@@ -13,7 +13,7 @@
 <h3> Declaration </h3>
 
 ```cpp
-it = set_union (first1, last1, first2, last2, result);
+it = set_difference (first1, last1, first2, last2, result);
 ```
 where,
 **first1, last1**:
