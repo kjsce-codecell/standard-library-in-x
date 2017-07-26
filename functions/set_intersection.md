@@ -1,10 +1,10 @@
-<h1 align="center"> set_intersection() </h1> 
+<h1 align="center"> set_intersection() </h1>
 
 <h3> Function </h3>
 
 > Constructs a sorted range beginning consisting of elements that are found in both sorted ranges [first1, last1) and [first2, last2).
 
->If some element is found m times in [first1, last1) and n times in [first2, last2), the first x number of elements will be copied from the first range to the destination range where x is the minimum of m and n. 
+>If some element is found m times in [first1, last1) and n times in [first2, last2), the first x number of elements will be copied from the first range to the destination range where x is the minimum of m and n.
 
 >The order of equivalent elements is preserved.
 
@@ -12,14 +12,14 @@
 
 <h3> Declaration </h3>
 
-```
+```cpp
 set_intersection(first1,last1,first2,last2,result)
 ```
 where,
-**first1, last1**: 
+**first1, last1**:
 Input iterators to the initial and final positions of the first sorted sequence.The range used is [first1,last1), which contains all the elements between first1 and last1, including the element pointed by first1 but not the element pointed by last1.
 
-**first2, last2**: 
+**first2, last2**:
 Input iterators to the initial and final positions of the second sorted sequence.The range used is [first2,last2), which contains all the elements between first2 and last2, including the element pointed by first2 but not the element pointed by last2.
 
 **result**:
@@ -31,7 +31,7 @@ Returns an iterator past the end of the constructed range.
 
 <h3> Example </h3>
 
-```C++
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm> //set_intersection, sort
@@ -52,4 +52,3 @@ Output:
 ```
 5 7
 ```
-

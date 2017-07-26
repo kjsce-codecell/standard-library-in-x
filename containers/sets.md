@@ -1,6 +1,3 @@
-<p><b><i>Contents : </i></b> <a href="#sets"> sets </a><a href="#unordered_sets"> unordered_sets</a><a href="#multiset"> multiset </a> </p>
-<br>
-
 <div id ="sets"> </div>
 <h1 align="center" ><a href="http://www.cplusplus.com/reference/set/set/"> Sets </a></h1>
 
@@ -13,6 +10,7 @@
 > We can access and traverse set elements using iterators just like vectors.
 <br>
 
+<div id = "members"></div>
 ### Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
@@ -32,7 +30,7 @@
 
 ### Implementation
 
-```C++
+```cpp
 // declaratation
 
 set<int> s1;                               // Empty Set
@@ -40,7 +38,8 @@ int a[]= {1, 2, 3, 4, 5, 5};
 set<int> s2 (a, a + 6);                    // s2 = {1, 2, 3, 4, 5}
 set<int> s4 (s3.begin(), s3.end());         // Set created using iterators
 ```
-```C++
+
+```cpp
 #include <iostream>
 #include<cstdio>
 #include <set>
@@ -63,6 +62,11 @@ int main()
 
 }
 ```
+Output:
+```
+size of set 4
+2 3 4 5
+```
 <br>
 
 ### Problems
@@ -80,7 +84,7 @@ int main()
 > Cons : Look up not guaranteed to be O(1) Therotical worst case is O(n)
 
 
-### Note : Implementation && Member functions are same as <a href="#sets">Sets</a> .
+### Note : Implementation && <a href="#members">Member functions</a> are similar as <a href="#sets">Sets</a> .
 
 ### Problems
 
@@ -95,7 +99,7 @@ int main()
 > Internally, the elements in a multiset are always sorted following a specific strict weak ordering criterion indicated by its internal [comparison object](http://www.cplusplus.com/reference/map/multimap/key_comp/) (of type Compare).
 <br>
 
-```C++
+```cpp
         multiset <int , greater<int> > m ;
         m.insert(40);
         m.insert(60);
@@ -103,7 +107,15 @@ int main()
         m.insert(60); // 60 will be added again to the multiset unlike set
 ```
 
-### Note : [Implementation](http://www.cplusplus.com/reference/set/multiset/multiset/) && Member functions are same as <a href="#sets">Sets</a> .
+### Note : [Implementation](http://www.cplusplus.com/reference/set/multiset/multiset/) && Member functions are same as <a href="#members">Sets</a> .
+
+### Extending <a href="#members"> This </a> :
+
+| <center>   Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
+| :------------- | :------------- | :------------- |
+| <a href="#">rbegin()</a>        | Returns a reverse iterator pointing to the last element in the container     | O(1)
+| <a href="#">rend() </a>      | Returns a reverse iterator pointing to the theoretical element right before the first element in the  container   | O(1)
+| <a href="#">equal_range() </a>     |  The function returns a pair, whose member pair::first is the lower bound of the range (the same as lower_bound), and pair::second is the upper bound     | O(logN)
 
 ### Problems
 

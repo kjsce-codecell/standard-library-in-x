@@ -10,7 +10,7 @@ Stacks have restrictions on the insertion and deletion of elements. Elements can
 
 <h2>CONSTRUCTION</h2>
 
-```
+```cpp
 stack <datatype> name;
 ```
 
@@ -26,15 +26,15 @@ stack <datatype> name;
 
 <h2>Implementation</h2>
 
-```
+```cpp
 #include <iostream>
 #include <stack>
- 
+
 using namespace std;
- 
+
 void showstack(stack <int> kj)
 {
-    stack <int> c = Kj;
+    stack <int> c = kj;
     while (!c.empty())
     {
         cout << '\t' << c.top();
@@ -42,7 +42,7 @@ void showstack(stack <int> kj)
     }
     cout << '\n';
 }
- 
+
 int main ()
 {
     stack <int> KJC;
@@ -51,18 +51,18 @@ int main ()
     KJC.push(20);
     KJC.push(5);
     KJC.push(1);
- 
+
     cout << "The stack KJC is : ";
     showstack(KJC);
- 
+
     cout << "\nKJC.size() : " << KJC.size();
     cout << "\nKJC.top() : " << KJC.top();
- 
- 
+
+
     cout << "\nKJC.pop() : ";
     KJC.pop();
     showstack(KJC);
- 
+
     return 0;
 }
 
