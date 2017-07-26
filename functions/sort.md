@@ -53,12 +53,12 @@ After Sorting:
 <h1 align="center">Comparators() </h1>
 
 
-##About
+## About
 
 >Actually the sort() function has three parameters that can be passed into it. The third parameter defines the ordering in which the elements should be sorted. This third parameter is actually a boolean function called Comparator which is used to sort the elements in any other way than the tradional sorting(Elements in Ascending order). It is not mandatory to have a third parameter in sort to have custom sorting . There are (at least) three ways to define an ordering in C++. 
 
 
-###_1. Define operator<()_ 
+### _1. Define operator<()_ 
 
 >This method can be used if you want objects of a custom class to be able to be sorted naturally. By naturally I mean it is default way to sort objects of this class. For example, you have a class Edge defined like this.
 
@@ -114,7 +114,7 @@ priority_queue<Edge> pq;
 set<Edge> s;
 ```
 
-###_2. Define a custom comparison function_
+### _2. Define a custom comparison function_
 >Use this method if you are comparing built-in types, you cannot modify the class you are comparing, or you want to define another ordering besides its natural ordering.
 
 >Basically, a comparison function is just a function that takes two parameter of the same type and returns a boolean:
@@ -136,7 +136,7 @@ Now you can sort data by specifying the comparison function to use as the additi
 sort(data.begin(), data.end(), cmp);
 ```
 
-###_3. Define operator()()_
+### _3. Define operator()()_
 
 A functor, or a function object, is an object that can behave like a function. This is done by defining operator()() of the class. In this case, implement operator()() as a comparison function:
 
@@ -165,7 +165,7 @@ A functor can be used as an ordinary function by instantiating the class. For th
 sort(data.begin(), data.end(), greater<int>());
 ```
 
-###_Bonus Tips_
+### _Bonus Tips_
 >If your class structure is large, then it is better that the parameters in your comparison function use const keyword and reference operator &. Example:
 ```cpp
 bool cmp(const Edge& a, const Edge& b)
