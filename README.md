@@ -19,26 +19,6 @@
     5. [Pairs & Tuples](./containers/Pairs&Tuples.markdown)
     6. [Queue](./containers/queue.md)
         1. Priority Queue
-<<<<<<< HEAD
-    7. [Stack](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/stacks.md)
-    8. [Bitset](https://github.com/KJSCE-Codecell/Cpp-STL-Notes/blob/master/bitsets.md)
-4. In-build functions
-    1. [next_permutation()](./nextpermutation.md)
-    2. [max_element()](./maxelement.md)
-    3. [min_element()](./minelement.md)
-    4. [binary_search()](./binarysearch.md)
-    5. [lower_bound()](./lowerbound.md)
-    6. [upper_bound()](./upperbound.md)
-    7. [sort()](./sort.md)
-    8. [reverse()](./reverse.md)
-    9. [set_union()](./set_union.md)
-    10. [set_intersection()](./set_intersection.md)
-    11. set_difference()
-    12. [max() & min()](./MaxMin.md)
-    13. is_sorted()
- 5. Problems
- 6. Reference
-=======
     7. [Stack](./containers/stacks.md)
     8. [Bitset](./containers/bitsets.md)
 4. In-built functions
@@ -62,4 +42,3 @@
     4. [Ipc Trainers-IPCTRAIN](./problems/ipctrain.cpp)
     5. [Chef Subseq-CHEFCODE](./problems/chefcode.cpp)
  6. [Reference](./reference.md)
->>>>>>> 2fdd526dc776c3d08410a6e753661724de941cbb

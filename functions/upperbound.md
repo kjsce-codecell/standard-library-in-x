@@ -30,7 +30,7 @@ int main() {
 
   it = upper_bound(v.begin(),v.end(),5);//first 6 in numbers
 
-  cout<<"upper bound at index : "<<it-v.begin()<<endl;
+  cout<<"lower bound at index : "<<it-v.begin()<<endl;
   return 0;
 }
 ```
@@ -38,5 +38,5 @@ int main() {
 ## Output
 
 ```
-upper bound at index : 7
+lower bound at index : 7
 ```
