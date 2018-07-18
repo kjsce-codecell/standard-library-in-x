@@ -31,6 +31,7 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 | <a>front()</a>          |Returns reference of the first element|       |O(1)
 | <a>front()</a>          |Returns reference of the last element|       |O(1)
 | <a>empty()</a>         |Returns 1 if vector is empty, else 0|      O(1)
+| <a>size()</a>         |Returns the total no of elements in the vector|    O(1)
 | <a>resize()</a>        |Resizes the vector to the new length which can be less than or greater than the current length       |O(N)
 
 

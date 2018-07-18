@@ -10,6 +10,8 @@
 > We can access and traverse set elements using iterators just like vectors.
 <br>
 
+> Internally implemented as binary search tree.
+
 <div id = "members"></div>
 ### Operations( Member functions )
 
