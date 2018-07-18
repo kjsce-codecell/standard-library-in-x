@@ -35,7 +35,7 @@
     11. [set_difference()](./functions/set_difference.md)
     12. [max() & min()](./functions/MaxMin.md)
     13. [is_sorted()](./functions/is_sorted.md)
- 5. Solutions
+ 5. Solutions to problem
     1. [Second Year Pains-KJCP02](./problems/kjcp02.cpp)
     2. [Sorting Tool-KJCPR](./problems/kjcp01.cpp)
     3. [Snake Eat-SNAKEEAT](./problems/snakeeat.cpp)
