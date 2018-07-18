@@ -2,8 +2,8 @@
 
 <h2>INTRODUCTION</h2>
 
-* A bitset is an array of bool but each Boolean value is not stored separately instead bitset optimizes the space such that each bool takes 1 bit space only, so space taken by bitset bs is less than othe methods to store them.<br>
-* However, a limitation of bitset is, N must be known at compile time it isn't dynamic<br>
+* A bitset is an array of bool but each Boolean value is not stored separately instead bitset optimizes the space such that each bool takes 1 bit space only, so space taken by bitset bs is less than other methods to store them.<br>
+* However, a limitation of bitset is, N must be known at compile time, it isn't dynamic<br>
 * As bitset stores the same information in compressed manner the operation on bitset are faster than that of array and vector.
 * We can access each bit of bitset individually with help of array indexing operator [] that is bs[3] shows bit at index 3 of bitset bs just like a simple array. <br>
 <br>!Remember bitset starts its indexing backward that is for 10110, 0 are at 0th and 3rd indices whereas 1 are at 1st 2nd and 4th indices.<br>
@@ -49,6 +49,7 @@ int main()
 {
 
     bitset<8> set8;    // 00000000
+    bitset<8> bset1;   // 00000000
 
     // setting first bit (or 6th index)
     set8[1] = 1;    // 00000010
@@ -74,9 +75,11 @@ int main()
     if (!bset1.any())
         cout << "bset1 has no bit set.\n";
 
-    // none function returns true, if none of the bit is set
+    bset1[0]=1;
+
+    // none function returns true, if none of the bits are set
     if (!bset1.none())
-        cout << "bset1 has all bit set\n";
+        cout << "bset1 has atleast a bit set\n";
 
     cout << set8.set() << endl; // bset.set() sets all bits
 
