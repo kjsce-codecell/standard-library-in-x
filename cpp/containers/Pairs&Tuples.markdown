@@ -119,7 +119,7 @@ Contents of pair2 = 1,12
 ```
 <h2> Note</h2>
 Pairs are mainly used at places where we need to rearrange certain data types(sort/insert) but keep together another value related to along with it throughout the process for certain use <br>
-By default sorting a pair related container causes data compared on the basis of fist parameter although we can create some custom compare function to change the behavior<br>
+By default sorting a pair related container causes data compared on the basis of first parameter although we can create some custom compare function to change the behavior<br>
 
 ```cpp
 #include<bits/stdc++.h>
