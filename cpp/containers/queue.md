@@ -43,6 +43,14 @@ int main(){
         return 0 ;
 }
 ```
+
+Output
+
+```
+Size of queue 3
+  1  4  9  
+
+```
 <br />
 
 ### Problems
@@ -97,6 +105,15 @@ int main()
     }
     return 0;
 }
+```
+
+Output
+
+```
+20
+10
+5
+
 ```
 <br />
 
