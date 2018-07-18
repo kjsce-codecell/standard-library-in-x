@@ -28,8 +28,14 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 | <a>clear()</a>        |Deletes all the elements from the vector and assign an empty vector       |O(N)
 | <a>pop_back()</a>        |Removes the last element from the vector       |O(1)
 | <a>push_back()</a>        |Inserts a new element at the end of the vector       |O(1)
+| <a>front()</a>          |Returns reference of the first element|       |O(1)
+| <a>front()</a>          |Returns reference of the last element|       |O(1)
+| <a>empty()</a>         |Returns 1 if vector is empty, else 0|      O(1)
 | <a>resize()</a>        |Resizes the vector to the new length which can be less than or greater than the current length       |O(N)
 
+
+<h2>Note</h2>
+begin() and end() function return an iterator(like a pointer) initialized to the first or the last element of the container that can be used to iterate through the collection, while front() and back() function just return a reference to the first or the last element of the container.
 
 <h2>PASSING AS ARGUMENT TO FUNCTION</h2>
 
