@@ -10,6 +10,8 @@
 > We can access and traverse set elements using iterators just like vectors.
 <br>
 
+> Internally implemented as binary search tree.
+
 <div id = "members"></div>
 ### Operations( Member functions )
 
@@ -23,7 +25,7 @@
 | <a href="#">erase( ) </a>      |  Deletes a particular element or a range of elements from the set.       | O(N)
 | <a href="#">find( ) </a>      | Searches for a particular element and returns the iterator pointing to the element if the element is found otherwise it will return the iterator returned by end().       | O(logN)
 | <a href="#">size( ) </a>      | Returns the size of the set or the number of elements in the set.       | O(1)
-| <a href="#">insert( ) </a>      |  insert a new element.       | O(1)
+| <a href="#">insert( ) </a>      |  insert a new element.       | O(logN)
 
 <br>
 

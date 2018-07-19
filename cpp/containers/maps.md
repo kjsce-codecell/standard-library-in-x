@@ -20,7 +20,7 @@ A map is a datastructure to store a key value pair.
 
 3. The elements are stored in orders(i.e. they are pre-sorted).
 
-4. Internal implementation is like a binary tree.
+4. Internal implementation is like a binary search tree.
 
 5. Size is increased and decreased automatically, according to storage needs.
 
