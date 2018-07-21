@@ -43,3 +43,4 @@ Output:
 ```
 [1,2,3,4,5,6,7]
 ```
+> **Note** : The values of lo and hi can be changed to apply the functions on a subset of the list instead.
