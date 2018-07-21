@@ -1,6 +1,6 @@
 <h1 align="center">Lists</h1>
 
-+<h1>Arraylists</h1>
+*<h1>Arraylists</h1>
 
 >Java ArrayList class uses a dynamic array for storing the elements. It inherits AbstractList class and implements List interface
 
@@ -23,9 +23,12 @@
 | <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
 |<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
 |<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O
+|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O()
 |<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
 |<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
-|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|
+|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
+
+
+
 
 
