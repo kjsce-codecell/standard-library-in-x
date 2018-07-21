@@ -6,7 +6,7 @@
 >It returns the maximum element of the given collection.
 
 
-NOTE!- This method requires a list type of data, we need to first convert the collection to list first using <b>“aslist()”<b> function.
+NOTE!- This method requires a list type of data, we need to first convert the collection to list first using <b>aslist()</b> function.
 
 ## Declaration
 
@@ -18,22 +18,23 @@ Collections.max(listName);
 
 ```java
 import java.util.*;  
-public class CollectionsExample {  
-    public static void main(String a[]){         
-        List<Integer> list = new ArrayList<Integer>();  
-        list.add(46);  
-        list.add(67);  
-        list.add(24);  
-        list.add(16);  
-        list.add(8);  
-        list.add(12);  
-        System.out.println("Value of maximum element from the collection: "+Collections.max(list));  
-    }  
+public class MaxExample 
+{  
+    	public static void main(String args[])
+	{         
+        	List<Integer> list = new ArrayList<Integer>();  
+        	list.add(100);  
+        	list.add(-2);  
+        	list.add(86);  
+        	list.add(986);  
+        	list.add(112);    
+        	System.out.println("The maximum value in collection is "+Collections.max(list));  
+    	}  
 }  
 ```
 
 ## Output
 
 ```
-Value of maximum element from the collection: 67
+The maximum value in collection is 986
 ```
