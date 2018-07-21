@@ -3,7 +3,7 @@
 
 ## Function
 
-> It is used to swap the elements at the specified positions in the specified list..
+> It is used to swap the elements at the specified positions in the specified list.
 
 ## Declaration
 
