@@ -1,6 +1,6 @@
 <h1 align="center">Lists</h1>
 
-*<h1>Arraylists</h1>
+<h1>Arraylists</h1>
 
 >Java ArrayList class uses a dynamic array for storing the elements. It inherits AbstractList class and implements List interface
 
@@ -29,6 +29,71 @@
 |<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
 
 
+###Implementation of ArrayList
+```
+//declaration
+//creating new generic arraylist
+ArrayList<String> al=new ArrayList<String>();
+```
+```
+//simple example
+    import java.util.*;  
+    class TestCollection1{  
+     public static void main(String args[]){  
+      ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+      list.add("Shivam"); 
+      list.add("Tushar");  
+      list.add("Chirag");  
+      list.add("Neel");  
+      //Traversing list through Iterator  
+      Iterator itr=list.iterator();  
+      while(itr.hasNext()){  
+       System.out.println(itr.next());  
+      }  
+     
+     //-------------------------------------------------------------------------------
+     //addall()
+      
+      
+      ArrayList<String> al2=new ArrayList<String>();  
+	  al2.add("Devansh");    
+	  al.addAll(al2);  
+	  Iterator itr=al.iterator();  
+	  
+	  while(itr.hasNext()){  
+	   System.out.println(itr.next());  
+	  }  
+
+     //--------------------------------------------------------------------------------
+     //indexOf()
+     int pos1 =list.indexOf("Shivam")
+     System.out.println(pos1)
+     }
+
+    }  
+
+```
+Output:
+```
+Shivam
+Tushar
+Chirag
+Neel
+
+Shivam
+Tushar
+Chirag
+Neel
+Devansh
+
+0
+
+```
+
+<h1>Vector</h1>
+
+
+>
 
 
 
