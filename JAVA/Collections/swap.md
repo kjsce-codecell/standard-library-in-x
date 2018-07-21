@@ -20,7 +20,7 @@ public static void swap(List<?> list,int index1,int index2)
 
 If the elements with index numbers of index1 and index2 do not exist, the method throws <b>ArrayIndexOutOfBoundsException</b>.
 
-## Example (Default source of randomness)
+## Example
 
 ```java
 import java.util.*;
