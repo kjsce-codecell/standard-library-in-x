@@ -49,7 +49,7 @@ l[1::-1]
 [4,3,2,1]
 [2,1]
  ```
-## Example of functions:
+## Examples:
 ## append()
 ```python
 l = [1, 2]
@@ -70,8 +70,9 @@ print(l3)
 l1=[1,2,3,4]
 l2=[5,6,7,8]
 l3 = l1+l2
+print(l3)
 ```
-> l3 = [1,2,3,4,5,6,7,8]
+> [1,2,3,4,5,6,7,8]
 
 Concatenantion always produces a new list so if
 ```python
@@ -87,4 +88,67 @@ l=[1,2,4]
 l.insert(2,3)
 print(l)
 ```
->l = [1,2,3,4]
+>[1,2,3,4]
+
+## delete
+```python
+l=[3.14, 42, "baz"]
+del l[2]
+print(l)
+```
+> [3.14, 42]
+
+## remove()
+```python
+l = [1, 2, 3 , 2]
+l.remove(2)
+print(l)
+```
+> [1, 3, 2]
+
+To remove **_all_** occurrences of element x in list l,
+
+```Python
+while x in l:
+  l.remove(x)
+```
+
+## pop()
+
+```python
+l=[1,2,3,4]
+print(l.pop(2))
+```
+> 3
+
+#### pop vs. remove vs. del
+
+remove removes the first matching value, not a specific index; del removes the item at a specific index; while pop removes the item at a specific index and returns it.
+
+## range() and in:
+```python
+l1 = [1, 2, 3, 4]
+p=len(l1)
+for i in range(1,p,1): #1 included p excluded, step = 1
+    i+=1
+
+l = [4,3,2,5]
+for i in l:
+    i+=1
+
+print(l , l1)
+```
+> [5, 4, 3, 6]    [1 ,3 ,4 ,4]
+## count()
+```python
+l=["a","b","c","b"]
+print(l.count("b"))
+```
+> 2
+
+## sorting a List
+```python
+l=[3,2,9,7]
+l.sort()            #sorts l in place, return type void
+a=sorted(l)         #sorts list and creates new list
+```
