@@ -12,9 +12,9 @@ public static void shuffle(List<?> list,Random r)
 ```
 
 ## Parameters
-list - The list to be shuffled.
+<b>list</b> - The list to be shuffled.
 
-r - The custom source of randomness to use to shuffle the list. This can be used to make shuffling a deterministic process if needed.
+<b>r</b> - The custom source of randomness to use to shuffle the list. This can be used to make shuffling a deterministic process if needed.
 When using identical sources of randomness to shuffle two same lists, both lists will contain elements in the exact same order after shuffling.
 
 When second parameter is not present, the list is shuffled using default source of randomness.
