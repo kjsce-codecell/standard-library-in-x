@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<div align="center">
-
-=======
 <h1 align="center">Standard Template Library</h1>
 
 <div align="center">
@@ -25,4 +21,3 @@ A comprehensive guide to standard template library to make your life easier in X
 
 ---
 <p align="center"> Built by folks at KJSCE CODECELL with :heart: </p>
->>>>>>> fcd1d95d8d15bde9911bb55a6973f29a02340090
