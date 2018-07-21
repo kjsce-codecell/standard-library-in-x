@@ -13,7 +13,7 @@
 2. [Methods]()
     1. [Bisect]()
     2. [Itertools]()
-    3. [Counters]()
+    3. [Counters](./methods/Counters.md)
     4. [Miscellaneous]()
         1. GCD
 
