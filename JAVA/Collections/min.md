@@ -8,7 +8,7 @@
 
 NOTE!- This method requires a list type of data, we need to first convert the collection to list first using <b>aslist()</b> function.
 
-## Declaration
+## Syntax
 
 ```java
 Collections.min(listName);
