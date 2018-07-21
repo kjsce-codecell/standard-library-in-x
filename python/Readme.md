@@ -1,3 +1,5 @@
+<div align="center">
+
 <h1 align="center">Python STL</h1>
 
 </div>
@@ -7,11 +9,11 @@
     1. [Lists]()
     2. [Sets]()
     3. [Dictionary]()
-    4. [Heapq]()
+    4. [Heapq](./containers/heapq.md)
 2. [Methods]()
-    1. [Bisect]()
+    1. [Bisect](./methods/bisect.md)
     2. [Itertools]()
-    3. [Counters]()
+    3. [Counters](./methods/Counters.md)
     4. [Miscellaneous]()
         1. GCD
 
