@@ -12,11 +12,11 @@
         3. LinkedList
     2. [Queues]()
         1. PriorityQueue
-    3. [Maps]()
+    3. [Maps](./Java maps.md)
         1. HashMap
         2. TreeMap
         3. LinkedHashMap
-    4. [Sets]()
+    4. [Sets](./Sets.md)
         1. HashSet
         2. LinkedHashSet
         3. TreeSet
@@ -39,7 +39,7 @@
         3. for each style
     * [Essential Methods]()
         1. Comparator
-        2. equals,hashCode,toString 
+        2. equals,hashCode,toString
         3. size()
         4. isEmpty()
         5. pollFirst() & pollLast()
