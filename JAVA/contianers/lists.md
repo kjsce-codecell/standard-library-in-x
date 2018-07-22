@@ -16,7 +16,7 @@
 
 
 
-### Operations
+ ### Operations
 
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
@@ -24,13 +24,13 @@
 | <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
 |<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
 |<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O()
+|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
 |<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
 |<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
-|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
+|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
 
 
-###Implementation of ArrayList
+ ###Implementation of ArrayList
 
 ```
 //declaration
@@ -103,23 +103,23 @@ Devansh
  >It extends AbstractList and implements List interfaces.
 
 
-### Operations
+ ### Operations
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
-| <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
+|<a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
 |<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
 |<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O()
+|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
 |<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
-|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
+|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O(n)
 |<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
 |<a href="#">boolean contains(Object o)  |This method returns true if this vector contains the specified element |O(n)
 |<a href="#"> boolean remove(Object o)</a>  |This method removes the first occurrence of the specified element in this Vector If the Vector does not contain the element, it is unchanged.|O() 
 |<a href="#">boolean equals(Object o)</a> | This method compares the specified Object with this Vector for equality.|O(n)
 
 
-###Implementation of Vectors
+ ###Implementation of Vectors
 
 ```
 //declaration
@@ -223,17 +223,17 @@ true
 
 >Java LinkedList class can be used as list, stack or queue.
 
-###Operations
+ ###Operations
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
 | <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
 |<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
 |<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O()
+|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
 |<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
-|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
-|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
+|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O(n)
+|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O(n)
 |<a href="#">void addFirst(Object o)</a> |It is used to insert the given element at the beginning of a list.|O(1)
 |<a href="#">void addLast(Object o)</a> |It is used to insert the given element at the ending of a list.|O(1)
 |<a href="#">int size()</a> |It is used to return the number of elements in a list|O(1)
@@ -242,7 +242,7 @@ true
 
 
 
-###Implementation of Vectors
+ ###Implementation of Vectors
 <br>
 
 ```
