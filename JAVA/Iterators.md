@@ -1,7 +1,7 @@
 # Iterators in JAVA
 
 - ### Simple and Easy method (For-each Style)
-  Write collection name right side of for-each loop and Collection variable in left side.
+  Write collection name right side of colon : in for-each loop and Collection variable in left side of colon.
   
 For example.
   
