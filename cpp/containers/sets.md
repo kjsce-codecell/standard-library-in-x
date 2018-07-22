@@ -1,18 +1,19 @@
 <div id ="sets"> </div>
 <h1 align="center" ><a href="http://www.cplusplus.com/reference/set/set/"> Sets </a></h1>
 
-> Sets are containers which store only unique values and permit easy look ups.
+Sets are containers which store only unique values and permit easy look ups. <br>
 
-> The values in the sets are stored in some specific order (like ascending or descending).
+The values in the sets are stored in some specific order (like ascending or descending). <br> 
 
-> Elements can only be inserted or deleted, but cannot be modified.
+Elements can only be inserted or deleted, but cannot be modified. <br>
 
-> We can access and traverse set elements using iterators just like vectors.
+We can access and traverse set elements using iterators just like vectors.
 <br>
 
 > Internally implemented as binary search tree.
 
 <div id = "members"></div>
+
 ### Operations( Member functions )
 
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
@@ -43,7 +44,7 @@ set<int> s4 (s3.begin(), s3.end());         // Set created using iterators
 
 ```cpp
 #include <iostream>
-#include<cstdio>
+#include <cstdio>
 #include <set>
 
 using namespace std;
@@ -79,11 +80,11 @@ size of set 4
 <div id = "unordered_sets"></div>
 <h1 align="center" ><a href="http://www.cplusplus.com/reference/unordered_set/unordered_set/"> Unordered-Sets </a></h1>
 
-> Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value.
+Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value. <br>
 
-> Pros : Faster than sets (promises amortized O(1) for search) .
+Pros : Faster than sets (promises amortized O(1) for search). <br>
 
-> Cons : Look up not guaranteed to be O(1) Therotical worst case is O(n)
+Cons : Look up not guaranteed to be O(1) Therotical worst case is O(n) <br>
 
 
 ### Note : Implementation && <a href="#members">Member functions</a> are similar as <a href="#sets">Sets</a> .
@@ -96,9 +97,9 @@ size of set 4
 <div id ="multiset"></div>
 <h1 align="center"><a href="http://www.cplusplus.com/reference/set/multiset/"> Multiset </a></h1>
 
-> Multisets are a type of associative containers similar to set, with an exception that multiple elements can have same values.
+Multisets are a type of associative containers similar to set, with an exception that multiple elements can have same values.<br>
 
-> Internally, the elements in a multiset are always sorted following a specific strict weak ordering criterion indicated by its internal [comparison object](http://www.cplusplus.com/reference/map/multimap/key_comp/) (of type Compare).
+Internally, the elements in a multiset are always sorted following a specific strict weak ordering criterion indicated by its internal [comparison object](http://www.cplusplus.com/reference/map/multimap/key_comp/) (of type Compare).
 <br>
 
 ```cpp
