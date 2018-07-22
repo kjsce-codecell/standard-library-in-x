@@ -29,7 +29,7 @@
 
 
 
-```
+```java
 // Java progrm to demonstrate working of priority queue in Java
 import java.util.*;
  

@@ -32,12 +32,12 @@
 
  ###Implementation of ArrayList
 
-```
+```java
 //declaration
 //creating new generic arraylist
 ArrayList<String> al=new ArrayList<String>();
 ```
-```
+```java
 //simple example
     import java.util.*;  
     class TestCollection1{  
@@ -121,7 +121,7 @@ Devansh
 
  ###Implementation of Vectors
 
-```
+```java
 //declaration
 
 
@@ -253,7 +253,7 @@ LinkedList<String> al=new LinkedList<String>();
 ```
 
 
-```
+```java
     import java.util.*;  
     public class TestCollection7{  
      public static void main(String args[]){  
