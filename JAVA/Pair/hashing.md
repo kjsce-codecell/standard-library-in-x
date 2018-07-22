@@ -18,6 +18,8 @@
 NOTE!- <b>If two objects are equal according to the equals(Object) method, then calling the hashcode() method on each of the two objects must produce the same integer result.</b>
 
 ## Why overriding hashCode() and equals() method is needed?
+Note the examples given below. 
+In the first example, both the methods are overridden so that Pair("Hello","World") and Pair("World","Hello") both have the same hashCode.
 ```java
 class Pair 
 {
@@ -67,7 +69,7 @@ p2 hashcode = 153375780
 Checking equality between p1 and p2 = true
 ```
 
-> If <b>equals()</b> and <b>hashCode()</b> methods are not overridden, we will get different hash code for Pair("Hello", "World") and Pair("World", "Hello")
+> If <b>equals()</b> and <b>hashCode()</b> methods are not overridden, we will get different hash code for Pair("Hello", "World") and Pair("World", "Hello"). The example below demonstrates this.
 
 ```java
 class Pair 
