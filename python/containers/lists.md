@@ -1,5 +1,7 @@
 <h1 align="center">Lists</h1>
+
 ## Introduction
+
 - A list is an ordered collection of zero or more references to Python data objects. Lists are written as comma-delimited values enclosed in square brackets. Lists are heterogeneous, meaning that the data objects need not all be from the same class and the collection can be assigned to a variable. Lists are enclosed in [ ].
 
 ## Operations :
