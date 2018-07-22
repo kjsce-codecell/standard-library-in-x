@@ -35,6 +35,7 @@ Method | Description
 
 ## Example
 ```java
+//This example demonstrates the use of all methods listed above
 import java.util.*;
 
 public class Main
