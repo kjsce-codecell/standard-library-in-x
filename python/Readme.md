@@ -6,8 +6,8 @@
 
 ### Index
 1. Containers
-    1. [Lists]()
-    2. [Sets]()
+    1. [Lists](./containers/lists.md)
+    2. [Sets](./containers/sets.md)
     3. [Dictionary]()
     4. [Heapq](./containers/heapq.md)
 2. [Methods]()
