@@ -12,7 +12,7 @@
         3. LinkedList
     2. [Queues]()
         1. PriorityQueue
-    3. [Maps](./Java maps.md)
+    3. [Maps](./Java_maps.md)
         1. HashMap
         2. TreeMap
         3. LinkedHashMap
