@@ -92,6 +92,8 @@ Devansh
 
 ```
 
+<br>
+
 <h1>Vector</h1>
  
  >Vector implements a dynamic array that means it can grow or shrink as required. Like an array, it contains components that can be accessed using an integer ind
@@ -209,6 +211,7 @@ true
 |3) ArrayList uses Iterator interface to traverse the elements.|3)Vector uses Enumeration interface to traverse the elements. But it can use Iterator also.
 |4)Is is fast|4)It is comparetively slower
 
+<br>
 
 <h1>LinkedList</h1>
 
@@ -240,6 +243,7 @@ true
 
 
 ###Implementation of Vectors
+<br>
 
 ```
 // declaration
