@@ -24,6 +24,9 @@ Method | Description
 <b>public boolean isEmpty()</b> | This method checks if collection is empty.
 <b>public boolean equals(Object element)</b> | This method is used to compare objects of collections.
 
+NOTE!- The above methods work for Set and List Interfaces.
+
+
 ## Methods of Iterator interface
 
 Method | Description
@@ -31,7 +34,6 @@ Method | Description
 <b>public boolean hasNext()</b> | It returns true if iterator has more elements.
 <b>public Object next()</b>	| It returns the element and moves the cursor pointer to the next element.
 <b>public void remove()</b>	| It removes the last elements returned by the iterator. It is rarely used.
-
 
 ## Example
 ```java
@@ -135,3 +137,83 @@ even_num contains odd_num? false
 num is empty? true
 temp list equal to odd_num? true
 ```
+
+
+## Methods of Map Interface
+Method | Description
+------------ | -------------
+<b>Object put(Object key, Object value)</b>	| It is used to insert an entry in this map.
+<b>void putAll(Map map)</b>	| It is used to insert the specified map in this map.
+<b>Object remove(Object key)</b>	| It is used to delete an entry for the specified key.
+<b>Object get(Object key)</b>	| It is used to return the value for the specified key.
+<b>boolean containsKey(Object key)</b>	| It is used to search the specified key from this map.
+<b>Set keySet()</b>	| It is used to return the Set view containing all the keys.
+<b>Set entrySet()</b>	| It is used to return the Set view containing all the keys and values.
+
+
+## Methods of Map.Entry Interface
+
+Entry is the sub interface of Map. So we will be accessed it by Map.Entry name. It provides methods to get key and value.
+
+Method | Description
+------------ | -------------
+<b>Object getKey()</b>	| It is used to obtain key.
+<b>Object getValue()</b>	| It is used to obtain value.
+
+
+Maps can also be traversed using Iterator.
+
+## Example
+```java
+//This example demonstrates use of all Map Interface methods
+import java.util.*;  
+class Main
+{  
+  public static void main(String args[])
+  {  
+   Map<Integer,String> map=new HashMap<Integer,String>(); 
+   Map<Integer,String> copy=new HashMap<Integer,String>();
+   map.put(100,"ABC");  
+   map.put(101,"XYZ");  
+   map.put(102,"PQR");  
+   
+   //traversing map
+   System.out.println("Traversing map:");
+   for(Map.Entry m:map.entrySet())  
+    System.out.println(m.getKey()+" "+m.getValue());
+   
+   
+   System.out.println("Value of key 100 in map is " +map.get(100));
+   
+   //inserting all elements of map into copy
+   copy.putAll(map);
+   System.out.println("Traversing copy: ");
+   for(Map.Entry c:copy.entrySet())  
+    System.out.println(c.getKey()+" "+c.getValue());
+   
+   
+   map.remove(102);
+   System.out.println("Removed key 102 from map.");
+   boolean check = map.containsKey(102);
+   
+   System.out.println("map contains key 102? "+check);
+   
+ }  
+}  
+```
+
+## Output
+```
+Traversing map:
+100 ABC
+101 XYZ
+102 PQR
+Value of key 100 in map is ABC
+Traversing copy: 
+100 ABC
+101 XYZ
+102 PQR
+Removed key 102 from map.
+map contains key 102? false
+```
+
