@@ -29,7 +29,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>implements Map<K,V>, Cloneable
 |HashMap()|	It is used to construct a default HashMap.
 |HashMap(Map m)	|It is used to initializes the hash map by using the elements of the given Map object m.
 |HashMap(int capacity)	|It is used to initializes the capacity of the hash map to the given integer value, capacity.
-|HashMap(int capacity, float fillRatio)|	It is used to initialize both the capacity and fill ratio of the hash map by using its arguments.
+|HashMap(int capacity, float fillRatio)|	It is used to initialize both the capacity and fill ratio of the hash map by using its arguments.|
 
 
 **Methods of HashMaps Class**
@@ -100,7 +100,8 @@ public class TreeMap<K,V> extends AbstractMap<K,V>implements NavigableMap<K,V>, 
 |TreeMap()|	It is used to construct an empty tree map that will be sorted using the natural order of its key.
 |TreeMap(Comparator comp)|	It is used to construct an empty tree-based map that will be sorted using the comparator comp.
 |TreeMap(Map m)|	It is used to initialize a tree map with the entries from m, which will be sorted using the natural order of the keys.
-|TreeMap(SortedMap sm)|	It is used to initialize a tree map with the entries from the SortedMap sm, which will be sorted in the same order as sm.
+|TreeMap(SortedMap sm)|	It is used to initialize a tree map with the entries from the SortedMap sm, which will be sorted in the same order as sm.|
+
 **Methods of Java TreeMap class**
 
 | Method| Description |
