@@ -30,12 +30,26 @@ For example.
  
 
 - ### Iterator
+In Java, Iterator is an interface available in Collection framework in java.util package. It is a Java Cursor used to iterate a 
 
-In java ```Iterator``` is class and Object of this class is used to iterate over certain collections.
+collection of objects.
+
+- It is used to traverse a collection object elements one by one.
+- It is available since Java 1.2 Collection Framework.
+- It is applicable for all Collection classes. So it is also known as Universal Java Cursor.
+- It supports both READ and REMOVE Operations.
+- Compare to Enumeration interface, Iterator method names are simple and easy to use.
+- In java ```Iterator``` is class and Object of this class is used to iterate over certain collections.
 
 Iterator is like pointer which points to location.
 
-**In java, iterator always points to location in middle of two objects not on the object.**
+In this section, we will discuss about Java Iterator methods in-brief. We will explore these methods in-depth with some useful examples 
+in the coming section.
+
+- boolean hasNext():Returns true if the iteration has more elements.
+- E next(): Returns the next element in the iteration.
+- default void remove(): Removes from the underlying collection the last element returned by this iterator.
+- default void forEachRemaining(Consumer action): Performs the given action for each remaining element until all elements have been   processed or the action throws an exception.
 
 
 Even Every Collection has ```iterator()``` method which returns reference of Iterator object which we can use to iterate over Collection.
@@ -81,7 +95,19 @@ For example.
  
  hasPrevious() and previous() have similar meaning as hasNext() and next() methods.
  
- 
+``public interface ListIterator <E> extends Iterator<E>  ``
+
+An iterator for lists that allows the programmer to traverse the list in either direction, modify the list during iteration, and obtain 
+
+the iterator's current position in the list. A ListIterator has no current element; its cursor position always lies between the element 
+
+that would be returned by a call to previous() and the element that would be returned by a call to next(). An iterator for a list of 
+
+Note that the remove() and set(Object) methods are not defined in terms of the cursor position; they are defined to operate on the last 
+
+element returned by a call to next() or previous().
+
+This interface is a member of the Java Collections Framework.
  
  ```java
  
