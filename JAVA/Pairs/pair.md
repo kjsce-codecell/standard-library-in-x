@@ -1,4 +1,4 @@
-<h1 align="center"><a href="#">Pairs </a></h1>
+<h1 align="center"><a href="#">Pair </a></h1>
 
 ## Function
 > JavaFX 2.2 has the <b>javafx.util.Pair</b> class which can be used to store a pair. 
