@@ -1,6 +1,6 @@
 <h1 align="center">Lists</h1>
 ## Introduction
-A list is an ordered collection of zero or more references to Python data objects. Lists are written as comma-delimited values enclosed in square brackets. Lists are heterogeneous, meaning that the data objects need not all be from the same class and the collection can be assigned to a variable. Lists are enclosed in [ ].
+- A list is an ordered collection of zero or more references to Python data objects. Lists are written as comma-delimited values enclosed in square brackets. Lists are heterogeneous, meaning that the data objects need not all be from the same class and the collection can be assigned to a variable. Lists are enclosed in [ ].
 
 ## Operations :
 | <center>Operation Name</center> | <center>Explanation</center> | <center>Operator</center> |
@@ -49,6 +49,18 @@ l[1::-1]
 [4,3,2,1]
 [2,1]
  ```
+ **x == y checks if x and y have the _same value_ while
+x is y checks if x and y refer to the same object (_point to the same memory location_)**
+
+Thus, if
+```Python
+l1 = [1,2,3]
+l2=l1
+```
+Changing the elements of l2 will cause change in l1 too.
+
+ Thus if we want a new list that has the same elements of another, we have to perform
+ >l2 = l1[:]
 ## Examples:
 ## append()
 ```python
@@ -152,3 +164,11 @@ l=[3,2,9,7]
 l.sort()            #sorts l in place, return type void
 a=sorted(l)         #sorts list and creates new list
 ```
+
+
+## Nested Lists
+```python
+l = [[2,[37]], 4, ["foo"]]
+print(l[0][1][0])
+```
+> 37
