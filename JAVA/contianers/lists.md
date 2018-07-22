@@ -30,7 +30,7 @@
 |<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
 
 
- ###Implementation of ArrayList
+ ### Implementation of ArrayList
 
 ```java
 //declaration
@@ -119,7 +119,7 @@ Devansh
 |<a href="#">boolean equals(Object o)</a> | This method compares the specified Object with this Vector for equality.|O(n)
 
 
- ###Implementation of Vectors
+ ### Implementation of Vectors
 
 ```java
 //declaration
@@ -223,7 +223,7 @@ true
 
 >Java LinkedList class can be used as list, stack or queue.
 
- ###Operations
+ ###  Operations
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
@@ -242,7 +242,8 @@ true
 
 
 
- ###Implementation of Vectors
+ ### Implementation of Vectors
+
 <br>
 
 ```
