@@ -10,7 +10,7 @@ The object of the StringBuffer class is growable. The basic difference between S
 The object of the class “StringBuffer” mutable.
 
 
-[]()
+![p1](https://github.com/Kadam-Tushar/standard-library-in-x/blob/master/JAVA/p1.JPG)
 
 **What is meant by immutable:** 
 
@@ -46,9 +46,12 @@ Output		                →  Hello World !
 
 - Because String is immutable hence new object is created for every concat.
 
+### Important methods of String class:
+
+![p4](https://github.com/Kadam-Tushar/standard-library-in-x/blob/master/JAVA/p4.JPG)
 
 
 ### Important methods of StringBuffer class:
 
-[]()
+![p3](https://github.com/Kadam-Tushar/standard-library-in-x/blob/master/JAVA/p3.JPG)
 
