@@ -23,7 +23,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>implements Map<K,V>, Cloneable
 
 **Constructors of Java HashMap class :**
 
-|<centre>Constructor</centre>| <centre>	Description</centre>|
+| <centre>Constructor</centre> | <centre>Description</centre> |
 | :---------------| | :--------------------|
 |HashMap()|	It is used to construct a default HashMap.
 |HashMap(Map m)	|It is used to initializes the hash map by using the elements of the given Map object m.
@@ -32,7 +32,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>implements Map<K,V>, Cloneable
 
 **Methods of HashMaps Class**
 
-|    <centre>Method</centre>  |	 <centre> Description</centre> |
+| <centre>Method</centre>  |	 <centre> Description</centre> |
 | :------------------- | :------------------ |
 |void clear()|	It is used to remove all of the mappings from this map.|
 | boolean containsKey(Object key) |	It is used to return true if this map contains a mapping for the specified key.|
