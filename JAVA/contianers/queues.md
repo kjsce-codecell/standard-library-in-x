@@ -12,11 +12,8 @@
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
-
-| <a href="#">boolean add(object)</a>  |It is used to insert the specified element into this queue and return true upon success.|O(log(n))
-
-| <a href="#">boolean offer(object)</a>   |It is used to insert the specified element into this queue.|O(log(n))
-
+|<a href="#">boolean add(object)</a>  |It is used to insert the specified element into this queue and return true upon success.|O(log(n))
+|<a href="#">boolean offer(object)</a>   |It is used to insert the specified element into this queue.|O(log(n))
 |<a href="#">Object remove()</a>  |It is used to retrieves and removes the head of this queue.|O(log(n))
 |<a href="#">Object poll()</a>  |It is used to retrieves and removes the head of this queue, or returns null if this queue is empty.|O(1)
 |<a href="#">Object peek()</a>   |It is used to retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.|O(1)
