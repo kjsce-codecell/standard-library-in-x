@@ -113,7 +113,7 @@ Devansh
 |<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
 |<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
 |<a href="#">boolean contains(Object o)  |This method returns true if this vector contains the specified element |O(n)
-|<a href="#"> boolean remove(Object o)</a>  This method removes the first occurrence of the specified element in this Vector If the Vector does not contain the element, it is unchanged.|O() 
+|<a href="#"> boolean remove(Object o)</a>  |This method removes the first occurrence of the specified element in this Vector If the Vector does not contain the element, it is unchanged.|O() 
 |<a href="#">boolean equals(Object o)</a> | This method compares the specified Object with this Vector for equality.|O(n)
 
 
@@ -208,4 +208,85 @@ true
 |2) ArrayList increments 50% of current array size if number of element exceeds from its capacity.|2)Vector increments 100% means doubles the array size if total number of element exceeds than its capacity
 |3) ArrayList uses Iterator interface to traverse the elements.|3)Vector uses Enumeration interface to traverse the elements. But it can use Iterator also.
 |4)Is is fast|4)It is comparetively slower
+
+
+<h1>LinkedList</h1>
+
+>Java LinkedList class uses doubly linked list to store the elements. It provides a linked-list data structure
+
+>Java LinkedList class can contain duplicate elements.
+
+>Java LinkedList class maintains insertion order.
+
+>Java LinkedList class can be used as list, stack or queue.
+
+###Operations
+
+|<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
+| :------------- | :------------- | :------------- |
+| <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
+|<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
+|<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
+|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O()
+|<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
+|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
+|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
+|<a href="#">void addFirst(Object o)</a> |It is used to insert the given element at the beginning of a list.|O(1)
+|<a href="#">void addLast(Object o)</a> |It is used to insert the given element at the ending of a list.|O(1)
+|<a href="#">int size()</a> |It is used to return the number of elements in a list|O(1)
+|<a hred="#">Object getFirst()</a>|It is used to return the first element in a list.|O(1)
+|<a hred="#">Object getLast()</a>|It is used to return the last element in a list.|O(1)
+
+
+
+###Implementation of Vectors
+
+```
+// declaration
+//eg
+LinkedList<String> al=new LinkedList<String>();
+
+```
+
+
+```
+    import java.util.*;  
+    public class TestCollection7{  
+     public static void main(String args[]){  
+      
+      LinkedList<String> al=new LinkedList<String>();  
+      al.add("Neel");  
+      al.add("Devansh");  
+      Iterator<String> itr=al.iterator();  
+      while(itr.hasNext()){  
+       System.out.println(itr.next());  
+      }  
+     
+     //--------------------------------------------------------------------------------
+     //addfirst and last
+     
+     al.addFirst("chirag");
+     al.addLast("hello");
+     while(itr.hasNext()){  
+       System.out.println(itr.next());  
+     }  
+
+
+
+     }  
+    }  
+	
+```
+
+
+Output:
+```
+Neel
+Devansh
+
+chirag
+Neel
+Devansh
+hello
+```
 
