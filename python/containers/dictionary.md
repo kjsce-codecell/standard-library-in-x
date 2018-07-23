@@ -1,4 +1,4 @@
-#Dictionary
+# Dictionary
 Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces.
 ### clear()
 The syntax of clear() is `dict.clear()`
@@ -43,7 +43,7 @@ d1 = {1: 'one', 2: 'two'}
 
 
 
-###copy()
+### copy()
 The syntax of copy() is `dict.copy()`
 They copy() method returns a shallow copy of the dictionary.It doesn't modify the original dictionary.
 Example:
@@ -59,7 +59,7 @@ Orignal:  {1: 'one', 2: 'two'}
 New:  {1: 'one', 2: 'two'}
 ```
 
-###fromkeys()
+### fromkeys()
 The syntax of fromkeys() method is:
 `dictionary.fromkeys(sequence[, value])`
 The fromkeys() method creates a new dictionary from the given sequence of elements with a value provided by the user.
@@ -82,7 +82,7 @@ Output:
 
 
 
-###get()
+### get()
 The syntax of get() is:
 `dict.get(key[, value])`
 The get() method returns the value for the specified key if key is in dictionary.
@@ -110,7 +110,7 @@ Salary:  0.0
 ```
 
 
-###items()
+### items()
 The syntax of items() method is:
 `dictionary.items()`
 The items() method returns a view object that displays a list of dictionary's (key, value) tuple pairs.
@@ -126,7 +126,7 @@ dict_items([('One', 1), ('Two', 2), ('Three', 3)])
 
 
 
-###keys()
+### keys()
 The syntax of keys() is:
 `dict.keys()`
 The keys() method returns a view object that displays a list of all the keys in the dictionary. When the dictionary is changed, the view object also reflect these changes.
@@ -143,7 +143,7 @@ dict_keys(['name', 'age', 'salary'])
 dict_keys([])
 ```
 
-###pop()
+### pop()
 The syntax of pop() method is
 `dictionary.pop(key[, default])`
 The pop() method removes and returns an element from a dictionary having the given key.
@@ -168,7 +168,7 @@ The dictionary is: {'orange': 3, 'grapes': 4}
 ```
 
 
-###popitem()
+### popitem()
 The syntax of popitem() is:
 `dict.popitem()`
 The popitem() returns and removes an arbitrary element (key, value) pair from the dictionary.
@@ -189,7 +189,7 @@ result =  ('age', 21)
 ```
 The popitem() raises a `KeyError` error if the dictionary is empty.
 
-###setdefault()
+### setdefault()
 The syntax of setdefault() is:
 `dict.setdefault(key[, default_value])`
 The setdefault() method returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
@@ -213,7 +213,7 @@ person =  {'name': 'Abc', 'age': 21}
 Age =  21
 ```
 
-###update()
+### update()
 The syntax of update() is:
 `dict.update([other])`
 The update() method updates the dictionary with the elements from another dictionary object or from an iterable of key/value pairs. It adds element(s) to the dictionary if the key is not in the dictionary. If the key is in the dictionary, it updates the key with the new value.
@@ -235,7 +235,7 @@ Output:
 {1: 'one', 2: 'two', 3: 'three'}
 ```
 
-###values()
+### values()
 The syntax of values() is:
 `dictionary.values()`
 The values() method returns a view object that displays a list of all the values in the dictionary.
@@ -249,7 +249,7 @@ Output:
 dict_values([2, 4, 3])
 ```
 
-###all()
+### all()
 The syntax of all() method is:
 `all(iterable)`
 The all() method takes a single parameter:
@@ -279,7 +279,7 @@ True
 ```
 
 
-###any()
+### any()
 The syntax of any() is:
 `any(iterable)`
 If all keys (not values) are false, any() returns `False`. If at least one key is true, any() returns `True`.
@@ -306,7 +306,7 @@ False
 True
 ```
 
-###len()
+### len()
 The syntax of len() is:
 `len(s)`
 The len() function returns the number of items (length) of an object.
@@ -321,7 +321,7 @@ Output:
 Length : 3
 ```
 
-###sorted()
+### sorted()
 The syntax of sorted() method is:
 `sorted(iterable[, key][, reverse])`
 sorted() takes two three parameters:
@@ -340,7 +340,7 @@ Output:
 ```
 
 
-###cmp()
+### cmp()
 The syntax of cmp() method is:
 `cmp(dict1, dict2)`
 The method cmp() compares two dictionaries based on key and values. This method returns 0 if both dictionaries are equal, -1 if dict1 < dict2 and 1 if dict1 > dict2.
