@@ -8,7 +8,7 @@
 1. Containers
     1. [Lists](./containers/lists.md)
     2. [Sets](./containers/sets.md)
-    3. [Dictionary]()
+    3. [Dictionary](./containers/dictionary.md)
     4. [Heapq](./containers/heapq.md)
 2. [Methods]()
     1. [Bisect](./methods/bisect.md)
