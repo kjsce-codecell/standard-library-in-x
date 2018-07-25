@@ -10,7 +10,7 @@
     2. [Sets](./containers/sets.md)
     3. [Dictionary](./containers/dictionary.md)
     4. [Heapq](./containers/heapq.md)
-2. [Methods]()
+2. Methods
     1. [Bisect](./methods/bisect.md)
     2. [Itertools](./methods/itertools.md)
         1. accumulate
