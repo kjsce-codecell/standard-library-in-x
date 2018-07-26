@@ -21,6 +21,8 @@ public static <T> int binarySearch(List<? extends T> list,T key,Comparator<? sup
 <b>c</b> − This is the comparator by which the list is ordered. A null value indicates that the elements' natural ordering should be used. The list must be sorted into ascending order according to the specified comparator.
 This parameter is optional.
 
+NOTE!- One important point to keep in mind is that the elements in the Collection must be already sorted, else the results will be something unexpected.
+
 ## Example (Without Comparator)
 
 ```java
@@ -31,17 +33,17 @@ public class BinarySearch
    public static void main(String args[]) 
    {
    
-    ArrayList<String> list = new ArrayList<String>();
+    ArrayList<Integer> list = new ArrayList<Integer>();
 
-    list.add("K. J.");
-    list.add("Somaiya");
-    list.add("College");
-    list.add("Of");
-    list.add("Engineering");
+    list.add(30);
+    list.add(45);
+    list.add(100);
+    list.add(250);
+    list.add(500);
 
-    int index = Collections.binarySearch(list, "College");     
+    int index = Collections.binarySearch(list,45);     
 
-    System.out.println("Position of 'College' is "+index);
+    System.out.println("Position of 45 is "+index);
    }    
 }
 ```
@@ -49,7 +51,7 @@ public class BinarySearch
 ## Output
 
 ```
-Position of 'College' is 2
+Position of 45 is 1
 ```
 
 ## Example (With Comparator)
@@ -62,11 +64,11 @@ public class BinarySearchwithComparator
     public static void main(String args[])
     {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        list.add(100);
         list.add(500);
         list.add(250);
-        list.add(30);
+        list.add(100);
         list.add(45);
+        list.add(30);
         int index = Collections.binarySearch(list, 30, 
                                   Collections.reverseOrder());
  
@@ -79,5 +81,5 @@ public class BinarySearchwithComparator
 ## Output
 
 ```
-Position of 30 is 3
+Position of 30 is 4
 ```
