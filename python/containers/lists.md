@@ -26,7 +26,7 @@
 | **del** |Deletes element in ith position | del l[i] |
 | **index**|Returns index of first occurrence of item | list.index(item) |
 | **count** |Returns number of occurrences of item | list.count(item) |
-| **remove** |Deletes element in ith position | list.remove(item) |
+| **remove** |Deletes first occurrence of item | list.remove(item) |
 | **extend** |Adds second list to end of first list | l1.extend(l2) |
 
 ## Slicing Lists
@@ -75,10 +75,10 @@ print(l)
 ```python
 l1=[1,2]
 l2=[3,4]
-l3=l1.extend(l2)
-print(l3)
+l1.extend(l2)
+print(l1)
 ```
-> l3 = [1,2,3,4]
+> l1 = [1,2,3,4]
 ## concatenation
 ```python
 l1=[1,2,3,4]
@@ -165,7 +165,13 @@ print(l.count("b"))
 l=[3,2,9,7]
 l.sort()            #sorts l in place, return type void
 a=sorted(l)         #sorts list and creates new list
+print(l)
+print(a)
 ```
+> [2, 3, 7, 9]
+>
+> [2, 3, 7, 9]
+
 
 
 ## Nested Lists
