@@ -114,9 +114,9 @@ Devansh
 |int lastIndexOf(Object o) |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
 |Object[] toArray()  |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
 |Object clone()  | It is used to return a shallow copy of an ArrayList.|O(n)
-|void trimToSize() |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O()
+|void trimToSize() |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
 |boolean contains(Object o)  |This method returns true if this vector contains the specified element |O(n)
-|boolean remove(Object o) |This method removes the first occurrence of the specified element in this Vector If the Vector does not contain the element, it is unchanged.|- 
+|boolean remove(Object o) |This method removes the first occurrence of the specified element in this Vector If the Vector does not contain the element, it is unchanged.|O(n)
 |boolean equals(Object o)| This method compares the specified Object with this Vector for equality.|O(n)
 
 
