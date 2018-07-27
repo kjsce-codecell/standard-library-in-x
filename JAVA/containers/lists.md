@@ -69,8 +69,8 @@ ArrayList<String> al=new ArrayList<String>();
 	
      //indexOf()
      
-     int pos1 =list.indexOf("Shivam")
-     System.out.println(pos1)
+     int pos1 =list.indexOf("Shivam");
+     System.out.println(pos1);
      }
 
     }  
