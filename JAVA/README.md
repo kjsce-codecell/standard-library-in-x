@@ -36,22 +36,14 @@
     7. [binarySearch](./Collections/binarySearch.md)
     8. [min](./Collections/min.md)
     9. [max](./Collections/max.md)
-3. Iterators and Methods
-    * [Iterators](./Iterators.md)
-        1. iterator
-        2. listIterator
-        3. for each style
-    * [Essential Methods]()
-        1. Comparator
-        2. equals,hashCode,toString
-        3. size()
-        4. isEmpty()
-        5. pollFirst() & pollLast()
-        6. poll()
- 5. Solutions to problem
-    1. [Second Year Pains-KJCP02]()
-    2. [Sorting Tool-KJCPR]()
-    3. [Snake Eat-SNAKEEAT]()
-    4. [Ipc Trainers-IPCTRAIN]()
-    5. [Chef Subseq-CHEFCODE]()
+3. [Iterators](./Iterators.md)
+    1. iterator
+    2. listIterator
+    3. for each style
+ 5. Solutions to problems
+    1. [Second Year Pains](standard-library-in-x/cpp/problems/kjcp01.cpp)
+    2. [Sorting Tool](standard-library-in-x/cpp/problems/kjcp01.cpp)
+    3. [Snake Eat](standard-library-in-x/cpp/problems/snakeeat.cpp)
+    4. [Ipc Trainers](standard-library-in-x/cpp/problems/ipctrain.cpp)
+    5. [Chef Subseq](standard-library-in-x/cpp/problems/chefcode.cpp)
  6. [Reference]()
