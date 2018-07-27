@@ -21,13 +21,13 @@
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
-| <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
-|<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
-|<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
-|<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
-|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O()
-|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
+| void clear()   | It is used to remove all of the elements from this list.|O(1)
+| void add(int index, Object element) | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
+| int indexOf(Object o)  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
+| int lastIndexOf(Object o)  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
+| Object[] toArray()   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
+| Object clone()  | It is used to return a shallow copy of an ArrayList.|-
+| void trimToSize() |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
 
 
  ### Implementation of ArrayList
@@ -52,22 +52,23 @@ ArrayList<String> al=new ArrayList<String>();
       while(itr.hasNext()){  
        System.out.println(itr.next());  
       }  
+      System.out.println();
      
-     //-------------------------------------------------------------------------------
+  
      //addall()
-      
-      
+       
       ArrayList<String> al2=new ArrayList<String>();  
-	  al2.add("Devansh");    
-	  al.addAll(al2);  
-	  Iterator itr=al.iterator();  
+	list.add("Devansh");    
+	al2.addAll(list);  
+	Iterator itr2 = al2.iterator();  
 	  
-	  while(itr.hasNext()){  
-	   System.out.println(itr.next());  
-	  }  
-
-     //--------------------------------------------------------------------------------
+	while(itr2.hasNext()){  
+	 System.out.println(itr2.next());  
+	}  
+	System.out.println();
+	
      //indexOf()
+     
      int pos1 =list.indexOf("Shivam")
      System.out.println(pos1)
      }
