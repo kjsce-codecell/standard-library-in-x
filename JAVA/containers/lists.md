@@ -186,7 +186,7 @@ true
 |1)ArrayList is not synchronized.|1)Vector is synchronized.
 |2) ArrayList increments 50% of current array size if number of element exceeds from its capacity.|2)Vector increments 100% means doubles the array size if total number of element exceeds than its capacity
 |3) ArrayList uses Iterator interface to traverse the elements.|3)Vector uses Enumeration interface to traverse the elements. But it can use Iterator also.
-|4)Is is fast|4)It is comparetively slower
+|4)Is is fast|4)It is comparatively slower.
 
 <br>
 
@@ -204,18 +204,18 @@ true
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
-| <a href="#">void clear()</a>   | It is used to remove all of the elements from this list.|O(1)
-|<a href="#">void add(int index, Object element)</a>  | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
-|<a href="#">int indexOf(Object o)</a>  | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
-|<a href="#">int lastIndexOf(Object o)</a>  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.|O(n)
-|<a href="#">Object[] toArray()</a>   |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
-|<a href="#">Object clone()</a>  | It is used to return a shallow copy of an ArrayList.|O(n)
-|<a href="#">void trimToSize()</a> |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O(n)
-|<a href="#">void addFirst(Object o)</a> |It is used to insert the given element at the beginning of a list.|O(1)
-|<a href="#">void addLast(Object o)</a> |It is used to insert the given element at the ending of a list.|O(1)
-|<a href="#">int size()</a> |It is used to return the number of elements in a list|O(1)
-|<a hred="#">Object getFirst()</a>|It is used to return the first element in a list.|O(1)
-|<a hred="#">Object getLast()</a>|It is used to return the last element in a list.|O(1)
+|void clear()   | It is used to remove all of the elements from this list.|O(1)
+|void add(int index, Object element) | It is used to insert the specified element at the specified position index in a list.|O(1) if added at the end,O(n) if added in the interior
+|int indexOf(Object o) | It is used to return the index in this list of the first occurrence of the specified element, or -1 if the List does not contain this element |O(n)
+|int lastIndexOf(Object o)  |It is used to return the index in this list of the last occurrence of the specified element, or -1 if the list does not contain this element.in|O(n)
+|Object[] toArray()  |It is used to return an array containing all of the elements in this list in the correct order.|O(n)
+|Object clone()  | It is used to return a shallow copy of an ArrayList.|O(n)
+|void trimToSize() |It is used to trim the capacity of this ArrayList instance to be the list's current size.|O(n)
+|void addFirst(Object o)|It is used to insert the given element at the beginning of a list.|O(1)
+|void addLast(Object o) |It is used to insert the given element at the ending of a list.|O(1)
+|int size() |It is used to return the number of elements in a list|O(1)
+|Object getFirst()|It is used to return the first element in a list.|O(1)
+|Object getLast()|It is used to return the last element in a list.|O(1)
 
 
 
@@ -233,7 +233,7 @@ LinkedList<String> al=new LinkedList<String>();
 
 ```java
     import java.util.*;  
-    public class TestCollection7{  
+    public class LinkedList_Demo{  
      public static void main(String args[]){  
       
       LinkedList<String> al=new LinkedList<String>();  
@@ -243,14 +243,15 @@ LinkedList<String> al=new LinkedList<String>();
       while(itr.hasNext()){  
        System.out.println(itr.next());  
       }  
-     
-     //--------------------------------------------------------------------------------
+     System.out.println();
+ 
      //addfirst and last
      
      al.addFirst("chirag");
      al.addLast("hello");
-     while(itr.hasNext()){  
-       System.out.println(itr.next());  
+     Iterator<String> itr2 = al.iterator();
+     while(itr2.hasNext()){  
+       System.out.println(itr2.next());  
      }  
 
 
