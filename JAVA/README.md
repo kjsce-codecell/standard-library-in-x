@@ -41,9 +41,9 @@
     2. listIterator
     3. for each style
  5. Solutions to problems
-    1. [Second Year Pains](standard-library-in-x/cpp/problems/kjcp01.cpp)
-    2. [Sorting Tool](standard-library-in-x/cpp/problems/kjcp01.cpp)
-    3. [Snake Eat](standard-library-in-x/cpp/problems/snakeeat.cpp)
-    4. [Ipc Trainers](standard-library-in-x/cpp/problems/ipctrain.cpp)
-    5. [Chef Subseq](standard-library-in-x/cpp/problems/chefcode.cpp)
+    1. [Second Year Pains](./../cpp/problems/kjcp01.cpp)
+    2. [Sorting Tool](./../cpp/problems/kjcp01.cpp)
+    3. [Snake Eat](./../cpp/problems/snakeeat.cpp)
+    4. [Ipc Trainers](./../cpp/problems/ipctrain.cpp)
+    5. [Chef Subseq](./../cpp/problems/chefcode.cpp)
  6. [Reference]()
