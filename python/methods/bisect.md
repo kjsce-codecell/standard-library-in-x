@@ -14,6 +14,7 @@
 
 >If x is present in list both **bisect_left** and **bisect_right** return the same value,else bisect_left returns the leftmost place in the sorted list to insert x and bisect_right returns the rightmost place.
 
+Example:
 ```python
 bisect_left([1,2,4,5,7,8],3)
 bisect_right([1,2,4,5,7,8],3)
@@ -38,6 +39,7 @@ Output :
 
 >x is inserted in a after any existing entries of x same as **insort_right()**.But,**insort_left()** inserts x before the existing entries of x.
 
+Example:
 ```python
 x=[1,2,4,5,6,7]
 insort(x,3)
