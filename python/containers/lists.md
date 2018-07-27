@@ -159,6 +159,7 @@ for i in l:
 print(l , l1)
 ```
 > [5, 4, 3, 6]    [1 ,3 ,4 ,4]
+
 ## count()
 ```python
 l=["a","b","c","b"]
