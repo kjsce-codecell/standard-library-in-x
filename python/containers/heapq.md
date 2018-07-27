@@ -22,7 +22,8 @@
 | **nsmallest(n, iterable, key=None)** | Return a list with the n smallest elements from the dataset defined by iterable. key | O(N*Logn) |
 
 > **Note** : All the functions maintain the heap invariant.
-<br/>
+
+
 
 ## Implementation :
 ```python
