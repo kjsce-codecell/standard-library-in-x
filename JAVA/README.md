@@ -41,7 +41,7 @@
     2. listIterator
     3. for each style
  5. Solutions to problems
-    1. [Second Year Pains](./../cpp/problems/kjcp01.cpp)
+    1. [Second Year Pains](./../cpp/problems/kjcp02.cpp)
     2. [Sorting Tool](./../cpp/problems/kjcp01.cpp)
     3. [Snake Eat](./../cpp/problems/snakeeat.cpp)
     4. [Ipc Trainers](./../cpp/problems/ipctrain.cpp)
