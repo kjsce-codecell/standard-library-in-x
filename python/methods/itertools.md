@@ -64,15 +64,15 @@ Example 1:
 from itertools import *
 for e in count(10, 0.05):
     print(e)
-
-''' 
-    Note: this program would print 
-    10
-    10.05
-    10.10
-    10.15
-    and so on, looping infinitely.
-'''
+```
+Output:
+```python
+Note: this program would print 
+10
+10.05
+10.10
+10.15
+and so on, looping infinitely.
 ```
 
 Example 2:

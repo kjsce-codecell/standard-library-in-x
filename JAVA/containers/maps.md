@@ -1,10 +1,13 @@
-<h1 align=“center”>Maps </h1>
+<div align="center">
+	<h1 align="center">Maps</h1>
+</div>
+
 
 A map contains values on the basis of key i.e. key
 and value pair. Each key and value pair is known as an entry. Map contains only unique keys.
 Map is useful if you have to search, update or delete elements on the basis of key.
 
-## 1) HashMaps
+## HashMaps
 Java HashMap class implements the map interface by using a hashtable. It inherits AbstractMap class and implements Map
 interface.
 The important points about Java HashMap class are:
@@ -72,7 +75,7 @@ class TestCollection13{
 
 
 
-## 2) TreeMaps
+## TreeMaps
 
 Java TreeMap class implements the Map interface by using a tree. It provides an efficient means of storing key/value pairs in sorted order.
 
@@ -151,7 +154,7 @@ class TestCollection15{
 |2) HashMap maintains no order.|	TreeMap maintains ascending order.|
 
 
-## 3) LinkedHashMap
+## LinkedHashMap
 Java LinkedHashMap class is Hash table and Linked list
 implementation of the Map interface, with predictable
 iteration order. It inherits HashMap class and

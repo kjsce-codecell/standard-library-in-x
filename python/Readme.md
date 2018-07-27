@@ -21,11 +21,4 @@
     3. [Counters](./methods/Counters.md)
     4. [Miscellaneous]()
         1. GCD
-
-4. Solutions to problem
-    1. [Second Year Pains-KJCP02]()
-    2. [Sorting Tool-KJCPR]()
-    3. [Snake Eat-SNAKEEAT]()
-    4. [Ipc Trainers-IPCTRAIN]()
-    5. [Chef Subseq-CHEFCODE]()
-6. [Reference]()
+3. [Miscellaneous]()

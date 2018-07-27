@@ -41,7 +41,7 @@ list <int>::iterator it;
 | <a>**inserter()**</a>        |    This function is used to insert the elements at any position in the container. It accepts 2 arguments, the container and iterator to position where the elements have to be inserted.   |
 | <a>**distance()**</a>        |Calculates the number of elements between first and last|
 
-!!Note-A few datatypes allow '-' operation to find the distance *second-first* but these aren't allowed for all containers hence we use distance().  
+**Note** - A few datatypes allow '-' operation to find the distance *second-first* but these aren't allowed for all containers hence we use distance().  
 
 <h2> IMPLEMENTATION</h2>
 
@@ -104,8 +104,7 @@ Output:
 ```
 All other functions are the same as that of the iterators.
 
-Note-(For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++
-using this the above implementation would look like:
+**Note** - (For some lazy people) some efforts in typing of syntax can be reduced if you make use of **auto** keyword used provided by c++, using this the above implementation would look like:
 
 ```cpp
 for(auto i=ar.rbegin();i!=ar.rend();++i)

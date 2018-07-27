@@ -25,12 +25,12 @@ vector<datatype> v[10]; // following declaration isn't a vector with 10 elements
 | <center>Function </center>    | <center>What it does ?</center>  | <center>Complexity</center>  |
 | :-------------                | :-------------                   | :-------------               |
 | <a>at()</a>        |Returns the reference to the element at a particular position (can also be done using ‘[ ]’ operator)       |O(1)
-| <a>clear()</a>        |Deletes all the elements from the vector and assign an empty vector       |O(N)
+| <a>clear()</a>        |Deletes all the elements from the vector and assign an empty vector |O(N)
 | <a>pop_back()</a>        |Removes the last element from the vector       |O(1)
 | <a>push_back()</a>        |Inserts a new element at the end of the vector       |O(1)
-| <a>front()</a>          |Returns reference of the first element|       |O(1)
-| <a>front()</a>          |Returns reference of the last element|       |O(1)
-| <a>empty()</a>         |Returns 1 if vector is empty, else 0|      O(1)
+| <a>front()</a>          |Returns reference of the first element       |O(1)
+| <a>front()</a>          |Returns reference of the last element       |O(1)
+| <a>empty()</a>         |Returns 1 if vector is empty, else 0      |O(1)
 | <a>size()</a>         |Returns the total no of elements in the vector|    O(1)
 | <a>resize()</a>        |Resizes the vector to the new length which can be less than or greater than the current length       |O(N)
 

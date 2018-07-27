@@ -1,7 +1,10 @@
-<h1 align=“center”>Sets </h1>
+<div align="center">
+	<h1 align="center">Sets</h1>
+</div>
+
 
 A Set is a Collection that cannot contain duplicate elements. It models the mathematical set abstraction. The Set interface contains only methods inherited from Collection and adds the restriction that duplicate elements are prohibited.
-## 1) HashSets :
+## HashSets :
 * Java HashSet class is used to create a collection that uses a hash table for storage.
 * It inherits the AbstractSet class and implements Set interface.
 * The important points about Java HashSet class are:
@@ -62,7 +65,7 @@ class TestCollection9{
        Ravi
 ```
 
-## 2)LinkedHashSet :
+## LinkedHashSet :
 Java LinkedHashSet class is a Hash table and Linked list implementation of the set interface. It inherits HashSet class and implements Set interface.
 
 The important points about Java LinkedHashSet class are:
