@@ -14,6 +14,7 @@
 
 >If x is present in list both **bisect_left** and **bisect_right** return the same value,else bisect_left returns the leftmost place in the sorted list to insert x and bisect_right returns the rightmost place.
 
+```python
 bisect_left([1,2,4,5,7,8],3)
 bisect([1,2,4,5,7,8],3)
 bisect_left([1,2,4,5,5,7,8],5)
