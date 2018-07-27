@@ -246,7 +246,9 @@ print(d)
 d1 = {3: "three"}
 
 d.update(d1)
-print(d)```
+print(d)
+```
+
 Output:
 ```{1: 'one', 2: 'two'}
 {1: 'one', 2: 'two', 3: 'three'}
