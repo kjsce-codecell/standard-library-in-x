@@ -58,7 +58,7 @@ x is y checks if x and y refer to the same object (_point to the same memory loc
 
 Thus, if
 ```Python
-l1 = [1,2,3]
+l1 = [1,2,4]
 l2=l1
 ```
 Changing the elements of l2 will cause change in l1 too.
