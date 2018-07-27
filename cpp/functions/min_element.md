@@ -20,11 +20,11 @@ using namespace std;
 int main() {
 	int a[6] = {-1,7,3,6,9,10};
 
-	cout<<"biggest value in range of first 3 elements : "<<*min_element(a,a+3)<<endl;
+	cout<<"smallest value in range of first 3 elements : "<<*min_element(a,a+3)<<endl;
 
-	cout<<"biggest value in range of first 5 elements : "<<*min_element(a,a+5)<<endl;
+	cout<<"smallest value in range of first 5 elements : "<<*min_element(a,a+5)<<endl;
 
-	cout<<"biggest value in range of last 3 elements : "<<*min_element(a+3,a+6)<<endl;  
+	cout<<"smallest value in range of last 3 elements : "<<*min_element(a+3,a+6)<<endl;  
 
     return 0;
 }
@@ -33,7 +33,7 @@ int main() {
 ## Output
 
 ```
-biggest value in range of first 3 elements : -1
-biggest value in range of first 5 elements : -1
-biggest value in range of last 3 elements : 6
+smallest value in range of first 3 elements : -1
+smallest value in range of first 5 elements : -1
+smallest value in range of last 3 elements : 6
 ```

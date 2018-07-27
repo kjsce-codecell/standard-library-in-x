@@ -24,16 +24,16 @@ int main() {
   int numbers[] = {1,2,3,4,5,4,3,2,1};
   vector<int> v(numbers,numbers+9);                         
 
-  sort (v.begin(), v.end());
+  sort(v.begin(), v.end());
 
   cout << "looking for a 3... ";
-  if (binary_search (v.begin(), v.end(), 3))
+  if (binary_search(v.begin(), v.end(), 3))
     cout << "found!"<<endl;
   else
     cout << "not found"<<endl;
 
   cout << "looking for a 6... ";
-  if (binary_search (v.begin(), v.end(), 6))
+  if (binary_search(v.begin(), v.end(), 6))
     cout << "found!"<<endl;
   else
     cout << "not found"<<endl;

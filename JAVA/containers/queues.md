@@ -7,7 +7,7 @@
 <br>
 
 
- ### Operations
+### Operations
 
 
 |<center>Function</center>  | <center>What it does?</center>  |  <center> Complexity </center> |
@@ -22,7 +22,7 @@
  
 > Java Priority Queue is implemented using Heap Data Structures
 
- ### Implementions 
+### Implementions 
 
 
 

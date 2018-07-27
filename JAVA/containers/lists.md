@@ -16,7 +16,7 @@
 
 
 
- ### Operations
+### Operations
 
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
@@ -30,7 +30,7 @@
 | void trimToSize() |It is used to trim the capacity of this ArrayList instance to be the list's current size.|-
 
 
- ### Implementation of ArrayList
+### Implementation of ArrayList
 
 ```java
 //declaration
@@ -104,7 +104,7 @@ Devansh
  >It extends AbstractList and implements List interfaces.
 
 
- ### Operations
+### Operations
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
@@ -120,7 +120,7 @@ Devansh
 |boolean equals(Object o)| This method compares the specified Object with this Vector for equality.|O(n)
 
 
- ### Implementation of Vectors
+### Implementation of Vectors
 
 ```java
 //declaration
@@ -150,19 +150,16 @@ class Vector_demo
         System.out.println("vector arr:" + arr);
        
        // check whether vector contains "Nishchith"
-
        if(v.contains("Nishchith"))
        System.out.println("Nishchith exists");
-
+       
        //equals
 
         Vector v1 = new Vector();         
-
         v1.add("Shivam");
         v1.add("Chirag");
         v1.add("Devansh");
         v1.add("Nishchith");
-
         System.out.println(v.equals(v1);
     }
 }
@@ -200,7 +197,7 @@ true
 
 >Java LinkedList class can be used as list, stack or queue.
 
- ###  Operations
+###  Operations
 
 |<center>Function</center>  |<center>What it does?</center>  |  <center> Complexity </center>
 | :------------- | :------------- | :------------- |
@@ -219,11 +216,11 @@ true
 
 
 
- ### Implementation of Vectors
+### Implementation of Vectors
 
 <br>
 
-```
+```java
 // declaration
 //eg
 LinkedList<String> al=new LinkedList<String>();
@@ -252,15 +249,10 @@ LinkedList<String> al=new LinkedList<String>();
      while(itr.hasNext()){  
        System.out.println(itr.next());  
      }  
-
-
-
      }  
     }  
 	
 ```
-
-
 Output:
 ```
 Neel

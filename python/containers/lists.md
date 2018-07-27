@@ -22,7 +22,6 @@
 | **append** | Adds a new item to the end of the list | list.append(item) |
 | **insert** |Inserts element at ith position in list | list.insert(i, item) |
 | **pop** | Pop and return the last item from the list | list.pop() |
-| **pop** | Pop and return the ith item from the list| list.pop(i) |
 | **sort** | Modifies a list to be sorted | list.sort() |
 | **reverse** | Modifies a list to be in reverse order | list.reverse() |
 | **del** |Deletes element in ith position | del l[i] |
@@ -169,7 +168,9 @@ Output:
 
 #### pop vs. remove vs. del
 
-remove removes the first matching value, not a specific index; del removes the item at a specific index; while pop removes the item at a specific index and returns it.
+>remove removes the first matching value, not a specific index; 
+>del removes the item at a specific index; 
+>while pop removes the item at a specific index and returns it.
 
 ## range() and in:
 ```python
@@ -216,7 +217,7 @@ Output:
 ```
 [2, 3, 7, 9]
 [9, 7, 6, 10]
-[6, 7, 9, 10
+[6, 7, 9, 10]
 ```
 
 

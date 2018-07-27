@@ -12,11 +12,11 @@
         3. LinkedList
     2. [Queues](./containers/queues.md)
         1. PriorityQueue
-    3. [Maps](./Java_maps.md)
+    3. [Maps](./containers/maps.md)
         1. HashMap
         2. TreeMap
         3. LinkedHashMap
-    4. [Sets](./Sets.md)
+    4. [Sets](./containers/sets.md)
         1. HashSet
         2. LinkedHashSet
         3. TreeSet
@@ -40,10 +40,3 @@
     1. iterator
     2. listIterator
     3. for each style
- 5. Solutions to problems
-    1. [Second Year Pains](./../cpp/problems/kjcp02.cpp)
-    2. [Sorting Tool](./../cpp/problems/kjcp01.cpp)
-    3. [Snake Eat](./../cpp/problems/snakeeat.cpp)
-    4. [Ipc Trainers](./../cpp/problems/ipctrain.cpp)
-    5. [Chef Subseq](./../cpp/problems/chefcode.cpp)
- 6. [Reference]()
