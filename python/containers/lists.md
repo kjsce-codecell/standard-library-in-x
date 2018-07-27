@@ -5,6 +5,7 @@
 - A list is an ordered collection of zero or more references to Python data objects. Lists are written as comma-delimited values enclosed in square brackets. Lists are heterogeneous, meaning that the data objects need not all be from the same class and the collection can be assigned to a variable. Lists are enclosed in [ ].
 
 ## Operations :
+
 | <center>Operation Name</center> | <center>Explanation</center> | <center>Operator</center> |
 |----|:---|:---|
 | **indexing** |  Access an element   |<center>[]</center>|
@@ -15,6 +16,7 @@
 
 
 ## Methods:
+
 | <center>Method name</center> | <center>Exlpanation</center> | <center>Use</center> |
 |----|:---|:---|
 | **append** | Adds a new item to the end of the list | list.append(item) |
