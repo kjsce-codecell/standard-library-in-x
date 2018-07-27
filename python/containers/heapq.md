@@ -11,6 +11,7 @@
 <br/>
 
 ## Functions :
+
 | <center>Function</center> | <center>What it Does?</center> | <center>Complexity</center> |
 |----|:---|:---|
 | **heapify(x)** | Transform list x into a heap, in-place | O(N) |
@@ -26,6 +27,7 @@
 
 
 ## Implementation :
+
 ```python
 from heapq import *
 
@@ -72,6 +74,7 @@ Replace(8)
 ```
 ### Heap Sort : 
 > A heapsort can be implemented by pushing all values onto a heap and then popping off the smallest values one at a time.
+
 ```python
 def heapsort(arr):
     h = []
