@@ -12,6 +12,7 @@
 > set1 = {'b', 'a', 'z'}
 - If we create a set with repeated elements: set3=set([1,2,3,2,3,1])
 > set3 = {1,2,3}
+
 ## Functions :
 <!--
 | <center>Method name</center> | <center>Exlpanation</center> | <center>Use</center> |
