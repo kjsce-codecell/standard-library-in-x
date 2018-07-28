@@ -57,7 +57,7 @@ count(start=0, step=1)
 
 > This function makes an iterator that returns evenly spaced values starting from *start* and the spacing is equal to *step*. If not provided, start and step default to **0** and **1** respectively. 
 > 
-> This function produces an infinite series. This is useful when we need to iterate over an infinie series, stopping when a condition is met. 
+> This function produces an infinite series. This is useful when we need to iterate over an infinite series, stopping when a condition is met. 
 
 Example 1:
 ```python
@@ -66,7 +66,7 @@ for e in count(10, 0.05):
     print(e)
 ```
 Output:
-```python
+```
 Note: this program would print 
 10
 10.05
