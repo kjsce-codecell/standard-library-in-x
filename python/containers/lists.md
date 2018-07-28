@@ -17,18 +17,18 @@
 
 ## Methods:
 
-| <center>Method name</center> | <center>Exlpanation</center> | <center>Use</center> |
-|----|:---|:---|
-| **append** | Adds a new item to the end of the list | list.append(item) |
-| **insert** |Inserts element at ith position in list | list.insert(i, item) |
-| **pop** | Pop and return the last item from the list | list.pop() |
-| **sort** | Modifies a list to be sorted | list.sort() |
-| **reverse** | Modifies a list to be in reverse order | list.reverse() |
-| **del** |Deletes element in ith position | del l[i] |
-| **index**|Returns index of first occurrence of item | list.index(item) |
-| **count** |Returns number of occurrences of item | list.count(item) |
-| **remove** |Deletes first occurrence of item | list.remove(item) |
-| **extend** |Adds second list to end of first list | l1.extend(l2) |
+| <center>Method name</center> | <center>Explanation</center> | <center>Use</center> | <center>Complexity</center>
+|----|:---|:---|:--
+| **append** | Adds a new item to the end of the list | list.append(item) | O(1) |
+| **insert** |Inserts element at ith position in list | list.insert(i, item) | O(n) |
+| **pop** | Pop and return the last item from the list | list.pop() | O(1) |
+| **sort** | Modifies a list to be sorted | list.sort() | O(nlogn) |
+| **reverse** | Modifies a list to be in reverse order | list.reverse() | O(n) |
+| **del** |Deletes element in ith position | del l[i] | O(n) |
+| **index**|Returns index of first occurrence of item | list.index(item) | O(n) |
+| **count** |Returns number of occurrences of item | list.count(item) | O(n) |
+| **remove** |Deletes first occurrence of item | list.remove(item) | O(n) |
+| **extend** |Adds second list to end of first list | l1.extend(l2) | O(len(l2)) |
 
 ## Slicing Lists
 
