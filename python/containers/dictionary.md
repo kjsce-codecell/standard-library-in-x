@@ -1,5 +1,6 @@
 # Dictionary
-Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces.
+Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. It is implemented as a **hash table** and hence most operations such as insertion, deletion and query take O(1) time.
+
 ### clear()
 The syntax of clear() is `dict.clear()`
 The clear() method removes all items from the dictionary. It doesnt take any parameters and doesnt return any value( returns `None`).
@@ -16,7 +17,7 @@ Output:
 d = {}
 ```
 
-Elements can also be removed by assingning empty dictionary `{}`  .
+Elements can also be removed by assigning empty dictionary `{}`  .
 However, there is a difference between the two if there is a variable referencing the dictionary.
 
 Example:
@@ -49,7 +50,7 @@ d1 = {1: 'one', 2: 'two'}
 
 ### copy()
 The syntax of copy() is `dict.copy()`
-They copy() method returns a shallow copy of the dictionary.It doesn't modify the original dictionary.
+They copy() method returns a shallow copy of the dictionary. It doesn't modify the original dictionary. Complexity: O(n)
 
 Example:
 ```python
@@ -295,7 +296,7 @@ s = {'0': 'True'}
 print(all(s))
 ```
 Output:
-```python
+```
 False
 True
 False
@@ -324,7 +325,7 @@ d = {'0': 'False'}
 print(any(d))
 ```
 Output:
-```python
+```
 False
 True
 False
