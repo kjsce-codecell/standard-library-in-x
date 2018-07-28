@@ -31,12 +31,16 @@
 ## add()
 
 - Used to add an element to a set.
+- Complexity: O(1)
 ```Python
 set1 = set([1,2,3,4,5])
 set1.add(6)
 print(s1)
 ```
-> {1, 2 , 3, 4 ,5 ,6}
+Output:
+```
+{1, 2 , 3, 4 ,5 ,6}
+```
 
 - Similarly, we can add a tuple
 ```Python
@@ -44,10 +48,14 @@ set1 = set([1,2,3,4,5])
 set1.add((6,7))
 print(s1)
 ```
-> {1, 2, 3, 4, 5 ,(6, 7)}
+Output:
+```
+{1, 2, 3, 4, 5 ,(6, 7)}
+```
 
 ## update()
-- adds element to list; it is an in-place set union operation
+- adds elements to set; it is an in-place set union operation 
+- Complexity: O(len(s)+len(t)), where s is the set and t is the iterable to be added.
 ```python
 set1 = set([1,2,3,4])
 set1.update([5,6])
@@ -55,14 +63,19 @@ print(set1)
 set1.update({7,8})
 print(set1)
 ```
->{1,2,3,4,5,6}
->{1,2,3,4,5,6,7,8}
+Output:
+```
+{1,2,3,4,5,6}
+{1,2,3,4,5,6,7,8}
+```
 
 ## discard() and remove()
 
 - Both are used to remove an element from the set.
 
 - Both discard and remove take a single argument, the element to be deleted from the set. If the value is not present, discard() does not do anything. Whereas, remove will raise a KeyError exception.
+
+- Complexity: O(1)
 ```Python
 set1 = set([1,2,3,4,5,6,7])
 set1.discard(7)
@@ -73,25 +86,30 @@ set1.discard(8)
 print(set1)
 set1.remove(8)
 ```
-> {1,2,3,4,5,6}
->
-> {1,2,3,4,5}
->
->{1,2,3,4,5}
+Output:
+```
+{1,2,3,4,5,6}
+{1,2,3,4,5}
+{1,2,3,4,5}
  Traceback (most recent call last):
->
->   File "python", line 1, in <module>
+
+   File "python", line 1, in <module>
 KeyError: 8
+```
 
 ## copy()
 
 - Creates a new set with same elements as original one.
+- Complexity: O(n)
 ```python
 set1 = set([1,2,3,4])
 set2 = set1.copy()
 print(set2)
 ```
-> {1,2,3,4}
+Output:
+```
+{1,2,3,4}
+```
 
 **Using assignment here instead of copy() will create a pointer to the already existing set.**
 
@@ -102,16 +120,19 @@ set1 = set([1,2,3,4])
 set1.clear()
 print(set1)
 ```
-> { }
+Output:
+{ }
 
 ## pop()
 - Removes and returns arbitrary set element.
 
 - Raises KeyError exception if set is empty.
+
+- Complexity: O(1)
 ```python
 set1 = set([1])
 set1.pop() #3
-set1.pop # KeyError: 'pop from an empty set'
+set1.pop() # KeyError: 'pop from an empty set'
 ```
 
 ## difference, intersection, union
@@ -128,17 +149,18 @@ print(set1.union(set2))
 print(set1.intersection(set2))
 print(set1.difference(set2))
 ```
-> {1,2,3,4,5,6}
->
-> {3,4}
->
-> {1,2}
+Output:
+```
+{1,2,3,4,5,6}
+{3,4}
+{1,2}
+```
 
 ## isdisjoint, issubset, issuperset
 
 - isdisjoint() returns true if intersection of sets is empty otherwise false.
 
-- issubset() returns true if setA is subset of setB, False if not. “<=” operator can be used to test for issubset. To check for proper subset “<” is used.
+- issubset() returns true if setA is subset of setB, False if not. **<=** operator can also be used to test for issubset. To check for proper subset **<** is used. that is `set1 < set2` would check if set1 is a proper subset of set 2
 ```python
 set1 = {1,2,3,4}
 set2 = {1,2,3,4,5,6}
@@ -146,11 +168,12 @@ print(set1.isdisjoint(set2))
 print(set1.issubset(set2))
 print(set1.issuperset(set2))
 ```
->false
->
->true
->
->true
+Output:
+```
+False
+True
+True
+```
 
 ## symmetric_difference()
 
@@ -160,15 +183,22 @@ s = set("Hello")
 p = set("World")
 print s.symmetric_difference(p)
 ```
->{'H','e','W','r','d'}
+Output:
+```
+{'H','e','W','r','d'}
+```
 
 ## sorting a set
 - Returns a list with elemnts of s in sorted order.
+- Complexity O(nlogn)
 ```python
 s = set([3,2,1,5,7,6,4])
 print(sorted(s))
 ```
-> [1,2,3,4,5,6,7]
+Output:
+```
+[1,2,3,4,5,6,7]
+```
 - Note that this returns a list and not a set because sets are not ordered, that is, {2,1} and {1,2} are the same sets.
 
 
@@ -177,4 +207,9 @@ One example where sets might be used is when we want to count the number of dist
 l = [1,2,5,4,2,3,1,5]
 s=set(l)
 print(len(l)) #number of distinct elements
+```
+
+Output:
+```
+5
 ```
