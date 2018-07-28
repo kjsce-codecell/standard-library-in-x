@@ -41,6 +41,7 @@ Output :
 >x is inserted in a after any existing entries of x same as **insort_right()**.But,**insort_left()** inserts x before the existing entries of x.
 > 
 > Keep in mind that the O(log n) search is dominated by the slow O(n) insertion step.
+
 Example:
 ```python
 x=[1,2,4,5,6,7]
