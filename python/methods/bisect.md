@@ -3,6 +3,8 @@
 > It provides support for maintaining a list in sorted order without having to sort the list after each insertion.
 
 > It uses a basic bisection algorithm to do its work.
+> 
+> Bisection algorithms are, by definition, O(logn) . 
 
 ### Functions 
 
@@ -12,7 +14,7 @@
 
 >The returned insertion point i partitions the array a into two halves so that all(val <= x for val in a[lo:i]) for the left side and all(val > x for val in a[i:hi]) for the right side.
 
->If x is present in list both **bisect_left** and **bisect_right** return the same value,else bisect_left returns the leftmost place in the sorted list to insert x and bisect_right returns the rightmost place.
+>If x is not present in list both **bisect_left** and **bisect_right** return the same value,else bisect_left returns the leftmost place in the sorted list to insert x and bisect_right returns the rightmost place.
 
 ```python
 bisect_left([1,2,4,5,7,8],3)
@@ -35,9 +37,10 @@ Output :
 * **insort(a,x,lo=0,hi=len(a))**
 
 >Insert x in a in sorted order.
-
+> 
 >x is inserted in a after any existing entries of x same as **insort_right()**.But,**insort_left()** inserts x before the existing entries of x.
-
+> 
+> Keep in mind that the O(log n) search is dominated by the slow O(n) insertion step.
 Example:
 ```python
 x=[1,2,4,5,6,7]
