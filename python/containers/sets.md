@@ -160,7 +160,7 @@ Output:
 
 - isdisjoint() returns true if intersection of sets is empty otherwise false.
 
-- issubset() returns true if setA is subset of setB, False if not. **<=** operator can also be used to test for issubset. To check for proper subset **<** is used. that is `set1 < set2` would check if set1 is a proper subset of set 2
+- issubset() returns true if setA is subset of setB, False if not. **<=** operator can also be used to test for issubset. To check for proper subset **<** is used. That is `set1 < set2` would check if set1 is a proper subset of set 2
 ```python
 set1 = {1,2,3,4}
 set2 = {1,2,3,4,5,6}
