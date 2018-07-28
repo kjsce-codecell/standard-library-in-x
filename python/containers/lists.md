@@ -17,8 +17,8 @@
 
 ## Methods:
 
-| <center>Method name</center> | <center>Explanation</center> | <center>Use</center> | <center>Complexity</center>
-|----|:---|:---|:--
+| <center>Method name</center> | <center>Explanation</center> | <center>Use</center> | <center>Complexity</center> |
+|----|:---|:---|:---|
 | **append** | Adds a new item to the end of the list | list.append(item) | O(1) |
 | **insert** |Inserts element at ith position in list | list.insert(i, item) | O(n) |
 | **pop** | Pop and return the last item from the list | list.pop() | O(1) |
