@@ -54,7 +54,5 @@ Current Stack
 10 3 5 20
 Popped : 20
 Peak : 7
-Element 3 at position : 4
+Element 3 at position : 3
 ```
-
-
