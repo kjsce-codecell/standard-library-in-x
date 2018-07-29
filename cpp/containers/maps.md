@@ -285,8 +285,8 @@ mymap.erase(it, mymap.end());
 
 <h3>6. Iteration</h3>
 
-<h4>1. Begin()</h4>Returns an iterator to first element in the map.
-<h4>2. End()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
+<h4>1. begin()</h4>Returns an iterator to first element in the map.
+<h4>2. end()</h4>Returns an iterator to the end of map (<b>Not the last element</b>).
 
 ```cpp
 unordered_map<char,int> mymap;
