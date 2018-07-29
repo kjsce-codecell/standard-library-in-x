@@ -216,7 +216,7 @@ true
 
 
 
-### Implementation of Vectors
+### Implementation of LinkedList
 
 <br>
 
