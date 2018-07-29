@@ -12,20 +12,21 @@
         3. LinkedList
     2. [Queues](./containers/queues.md)
         1. PriorityQueue
-    3. [Maps](./containers/maps.md)
+    3. [Stack](./containers/stack.md)
+    4. [Maps](./containers/maps.md)
         1. HashMap
         2. TreeMap
         3. LinkedHashMap
-    4. [Sets](./containers/sets.md)
+    5. [Sets](./containers/sets.md)
         1. HashSet
         2. LinkedHashSet
         3. TreeSet
-    5. Pairs
+    6. Pairs
         1. [Hashing](./Pair/hashing.md)
         2. [Pair](./Pair/pair.md)
         3. [Utilities](./Pair/utilities.md)
         4. [sorting](./Pair/sorting.md)
-    6. [String/StringBuffers](./Strings.md)
+    7. [String/StringBuffers](./Strings.md)
 2. Collections
     1. [reverse](./Collections/reverse.md)
     2. [Sort](./Collections/sort.md)
